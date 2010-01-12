@@ -1,183 +1,230 @@
-HTML {
-    BACKGROUND:#fff;
-    COLOR:#000
+* {
+    margin:0px;
+    padding:0px;
 }
 BODY {
-    MARGIN: 0px;
-    PADDING-RIGHT: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-BOTTOM: 0px;
-    PADDING-TOP: 0px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    BACKGROUND:#fff;
+    font-family: arial,sans-serif;
     font-size:14px;
-    line-height:1.5;
-    text-align:left;
-}
-DIV {
-    MARGIN: 0px;
-    PADDING-RIGHT: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-BOTTOM: 0px;
-    PADDING-TOP: 0px
-}
-UL {
-    MARGIN: 0px;
-    PADDING-RIGHT: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-BOTTOM: 0px;
-    PADDING-TOP: 0px
-}
-a:link, a:visited {
     color:#000;
 }
-a:hover {
-    text-decoration:none;
-    background:#296186;
-    color:#fff;
+.content {
+    text-align:left;
+    font-family: arial,sans-serif;
+    line-height:1.5;
+    font-size:14px;
+    color:#000;
 }
-.highlight {
+.content hr {
+    margin-bottom:10px;
+    color:#eee;
+}
+.content p {
+    margin-bottom:10px;
+}
+.content a {
+    text-decoration:none;
+    color:#008000;
+}
+.content a:hover {
+    text-decoration:underline;
+}
+.content ul {
+    margin-left:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.content ol {
+    margin-left:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.content .highlight {
     font-weight:bold;
+    color:#666;
 }
-HR {
-    /*margin-top:20px;
-	margin-bottom:20px;*/
+.content .quote {
+    font-style:italic;
 }
-.inner {
-    width:960px;
-    margin:0 auto;
-    clear:both;
-}
-/*=head*/
-#head {
-    width:100%;
-    height:69px;
-    background:#03314b;
-}
-#logo a {
-    float:left;
-    color:#cccccc;
-    font-size:30px;
-    text-decoration:none;
-    line-height:70px;
-}
-#logo a:hover {
-    color:#97ccf4;
-    background:none;
-}
-#description {
-    float:left;
-    color:#97ccf4;
-    margin:28px auto auto 10px;
-}
-/*end head*/
 
-/*=menu*/
-#navigation {
-    width:100%;
-    height:48px;
-    border-top:1px solid #03314b;
-    border-bottom:1px solid #03314b;
-    background:#296186
-}
-#menu-left {
-    float:left;
-    height:48px;
+/* menu class */
+.menu-ul {
     list-style:none;
 }
-#menu-right {
-    float:right;
-    height:48px;
-    list-style:none;
-}
-#menu-left li, #menu-right li {
+.menu-ul li {
     float:left;
-    border-left:1px solid #03314b;
-    border-right:1px solid #03314b;
-    margin-left:-1px;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    margin-right:-1px;
 }
-#menu-left li a, #menu-right li a {
-    float:left;
+.menu-ul li a {
     display:block;
-    height:48px;
+    height:43px;
+    padding-top:5px;
     padding-left:10px;
     padding-right:15px;
     white-space:nowrap;
     text-decoration:none;
-    color:#fff;
-    line-height:28px;
+    color:#333;
 }
-#menu-left li a p, #menu-right li a p {
-    margin:0px;
-    color:#97ccf4;
-    line-height:14px;
-}
-#menu-left li a:hover, #menu-right li a:hover {
-    background:#03314b;
-}
-/*end menu*/
-/*=main*/
-#main {
-    width:100%;
-    padding-top:40px;
-}
-#home #main{
-    height:600px;
-}
-#projects #main{
-    height:800px;
-}
-#connect #main{
-    height:450px;
-}
-#contact #main{
-    height:450px;
-}
-#content {
-    /*float:left;
-	width:690px;*/
-}
-#side {
-    /*float:right;
-	width:240px;*/
-    height: 10px;
-}
-/*=foot*/
-#foot {
-    width:100%;
-    height:30px;
-    padding:10px 0;
-    background:#03314b;
+.menu-ul li a p {
+    padding-top:5px;
     font-size:12px;
+    color:#999;
 }
-#foot-note {
-    float:left;
-    color:#97ccf4;
-    margin-left:0px;
-    line-height:15px;
+.menu-ul li a:hover {
+    background:#666;
+    color:#fff;
 }
-#counter {
-    float:left;
-    margin-left:20px;
-}
-#foot-menu {
-    float:right;
+/* menu class end */
+
+/* foot menu class */
+.menu-ul-sample {
     list-style:none;
 }
-#foot-menu li {
+.menu-ul-sample li {
     float:left;
-    border-left:1px solid #858585;
-    border-right:1px solid #858585;
-    margin-left:-1px;
+    border-left:1px solid #ccc;
     padding-left:5px;
     padding-right:5px;
 }
-#foot-menu li a {
-    color:#97ccf4;
-    text-decoration:none
+.menu-ul-sample li a {
+    text-decoration:none;
+    color:#666;
 }
-#foot-menu li a:hover {
-    color:#fff;
+.menu-ul-sample li a:hover {
     text-decoration:underline;
-    background:none;
+    color:#333;
 }
-/*end foot*/
+/* foot menu class */
+
+/* page width */
+#container {
+    width:960px;
+    margin:0px auto;
+}
+/* page width end */
+
+/*=header */
+#head {
+    clear:both;
+    height:80px;
+    border-top:10px solid #eee;
+}
+#head img {
+    float:left;
+    margin-top:15px;
+}
+#head h1 a {
+    float:left;
+    text-decoration:none;	
+    font-size:30px;
+    color:#333;
+    margin-left:20px;
+    margin-top:25px;
+}
+#head h1 a:hover {
+    color:#008000;
+}
+#head p {
+    float:left;
+    color:#999;
+    margin-left:15px;
+    margin-top:38px;
+}
+#navi {
+    clear:both;
+    height:48px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    background:#eee;
+}
+#left-menu {
+    float:left;
+    height:48px;
+}
+#right-menu {
+    float:right;
+    height:48px;
+}
+/* header end*/
+
+/* main */
+#side-bar {
+    float:right;
+    margin-top:40px;
+    margin-bottom:40px;
+    border:1px solid #ccc;
+    width:250px;
+    background:#eee;
+}
+#side-bar h2 {
+    border-bottom:1px solid #ccc;
+    padding-left:10px;
+    line-height:45px;
+    background:#ddd;
+    font-size:22px;
+    font-weight:normal;
+    color:#008000;
+}
+#side-bar div {
+    margin:10px 10px 30px 10px;
+}
+#main {
+    clear:both;
+    float:left;
+    margin-top:40px;
+    margin-bottom:50px;
+    width:650px;
+}
+#main h2 {
+    border-bottom:1px dotted #ccc;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:18px;
+    color:#008000;
+}
+#main h2 span {
+    font-size:14px;
+    color:#666;
+}
+#main h2 a {
+    text-decoration:underline;
+    color:#666;
+}
+#main h2 a:hover {
+    text-decoration:none;
+    color:#999;
+}
+/* main end */
+
+/* foot */
+#foot {
+    clear:both;
+    border:1px solid #ccc;
+    height:20px;
+    padding:10px 0;
+    background:#eee;
+}
+#foot p {
+    float:left;
+    margin-left:5px;
+    color:#666;
+}
+#foot p a {
+    text-decoration:none;
+    color:#666;
+}
+#foot p a:hover {
+    text-decoration:underline;
+    color:#333;
+}
+#foot #counter {
+    float:left;
+    margin-left:20px;
+    margin-top:2px;
+}
+#foot ul {
+    float:right;
+}
+/* foot end */
