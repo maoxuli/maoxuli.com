@@ -8,12 +8,20 @@ BODY {
     font-size:14px;
     color:#000;
 }
+.clearfix {
+    clear:both;
+}
 .content {
     text-align:left;
     font-family: arial,sans-serif;
     line-height:1.5;
     font-size:14px;
     color:#000;
+}
+.frame {
+    margin-bottom:20px;
+    text-align:center;
+    border:2px solid #ccc;
 }
 .content hr {
     margin-bottom:10px;
@@ -39,7 +47,7 @@ BODY {
     margin-top:10px;
     margin-bottom:10px;
 }
-.content .highlight {
+.highlight {
     font-weight:bold;
     color:#666;
 }
@@ -66,11 +74,13 @@ BODY {
     white-space:nowrap;
     text-decoration:none;
     color:#333;
+    font-weight:bold;
 }
 .menu-ul li a p {
     padding-top:5px;
     font-size:12px;
     color:#999;
+    font-weight:normal;
 }
 .menu-ul li a:hover {
     background:#666;
@@ -81,12 +91,13 @@ BODY {
 /* foot menu class */
 .menu-ul-sample {
     list-style:none;
+    padding-right:5px;
 }
 .menu-ul-sample li {
     float:left;
     border-left:1px solid #ccc;
-    padding-left:5px;
-    padding-right:5px;
+    padding-left:10px;
+    padding-right:10px;
 }
 .menu-ul-sample li a {
     text-decoration:none;
@@ -109,18 +120,20 @@ BODY {
 #head {
     clear:both;
     height:80px;
+    padding-left:20px;
+    padding-right:20px;
     border-top:10px solid #eee;
 }
 #head img {
     float:left;
     margin-top:15px;
+    margin-right:20px;
 }
 #head h1 a {
     float:left;
     text-decoration:none;	
     font-size:30px;
     color:#333;
-    margin-left:20px;
     margin-top:25px;
 }
 #head h1 a:hover {
@@ -153,21 +166,25 @@ BODY {
 #side-bar {
     float:right;
     margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:50px;
+    margin-right:20px;
+    width:220px;
+}
+.side-item {
     border:1px solid #ccc;
-    width:250px;
+    margin-bottom:30px;
     background:#eee;
 }
-#side-bar h2 {
+.side-item h2 {
     border-bottom:1px solid #ccc;
-    padding-left:10px;
     line-height:45px;
     background:#ddd;
     font-size:22px;
     font-weight:normal;
+    text-align:center;
     color:#008000;
 }
-#side-bar div {
+.side-item div {
     margin:10px 10px 30px 10px;
 }
 #main {
@@ -175,6 +192,7 @@ BODY {
     float:left;
     margin-top:40px;
     margin-bottom:50px;
+    margin-left:20px;
     width:650px;
 }
 #main h2 {
@@ -208,7 +226,7 @@ BODY {
 }
 #foot p {
     float:left;
-    margin-left:5px;
+    margin-left:10px;
     color:#666;
 }
 #foot p a {
