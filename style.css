@@ -4,7 +4,7 @@
 }
 BODY {
     BACKGROUND:#fff;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size:14px;
     color:#000;
 }
@@ -13,15 +13,14 @@ BODY {
 }
 .content {
     text-align:left;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     line-height:1.5;
     font-size:14px;
     color:#000;
 }
-.frame {
-    margin-bottom:20px;
-    text-align:center;
-    border:2px solid #ccc;
+.content .first {
+    font-size: 20px;
+    color:#008000;
 }
 .content hr {
     margin-bottom:10px;
@@ -47,14 +46,13 @@ BODY {
     margin-top:10px;
     margin-bottom:10px;
 }
-.highlight {
+.content .highlight {
     font-weight:bold;
-    color:#666;
+    color:#333;
 }
 .content .quote {
     font-style:italic;
 }
-
 /* menu class */
 .menu-ul {
     list-style:none;
@@ -131,13 +129,13 @@ BODY {
 }
 #head h1 a {
     float:left;
-    text-decoration:none;	
+    text-decoration:none;
     font-size:30px;
-    color:#333;
+    color:#008000;
     margin-top:25px;
 }
 #head h1 a:hover {
-    color:#008000;
+    color:#333;
 }
 #head p {
     float:left;
@@ -161,7 +159,29 @@ BODY {
     height:48px;
 }
 /* header end*/
-
+#album {
+    float:left;
+    position:relative;
+    margin:40px 0px 0px 20px;
+    border-bottom:2px solid #ccc;
+    height:258px;
+    width:492px;
+    overflow:hidden;
+}
+#album img {
+    position:absolute;
+    top:0;
+    left:0;
+    height:258px;
+    width:492px;
+}
+#welcome {
+    float:right;
+    margin:40px 20px 0px 0px;
+    border-bottom:2px solid #ccc;
+    height:258px;
+    width:380px;
+}
 /* main */
 #side-bar {
     float:right;
@@ -179,8 +199,8 @@ BODY {
     border-bottom:1px solid #ccc;
     line-height:45px;
     background:#ddd;
-    font-size:22px;
-    font-weight:normal;
+    font-size:18px;
+    font-weight:bold;
     text-align:center;
     color:#008000;
 }
@@ -188,7 +208,6 @@ BODY {
     margin:10px 10px 30px 10px;
 }
 #main {
-    clear:both;
     float:left;
     margin-top:40px;
     margin-bottom:50px;
@@ -197,9 +216,8 @@ BODY {
 }
 #main h2 {
     border-bottom:1px dotted #ccc;
-    margin-top:15px;
     margin-bottom:15px;
-    font-size:18px;
+    font-size:20px;
     color:#008000;
 }
 #main h2 span {
