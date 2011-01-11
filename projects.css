@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#projects {
+	margin:30px;
+}
+#projects .by {
+	font-size:90%;
+	font-style:italic;
+}
+#projects .wide p {
+    text-align:justify;
+}
+#projects .more {
+    float:right;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#gwu {
+    margin:30px;
+}
+#gwu ul li span {
+    font-weight: bold;
+}
+#gwu .left {
+    width:380px;
+    float:left;
+}
+#gwu .right {
+    width:240px;
+    float:right;
+}
+#gwu .right img {
+    margin:20px 0 30px 20px;
+    width:218px;
+    border:4px solid #000;
+}
+
+#gwu .section {
+    padding-bottom:20px;
+    border-top:1px dashed #000;
+}
+#gwu .section img {
+    float:right;
+    margin-right: 30px;
+    margin-bottom:20px;
+    width:150px;
+}
+#gwu .section ul li span {
+    font-weight:bold;
+}
+
+#gwu .more {
+    float:right;
+    margin-botto:20px;
+    text-transform: uppercase;
+}
