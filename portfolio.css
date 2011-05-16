@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.post {
+    border-top: 1px dotted #B4B4B4;
+    padding-bottom: 10px;
+}
+.post h2 {
+    font-size: 12pt;
+}
+.post .meta {
+    margin:0;
+    padding:0;
+    margin-top:-5px;
+    font-size:10pt;
+    font-style:italic;
+}
+.post p {
+    text-align: justify;
+}
+#featured {
+    border:none;
+}
+#featured ul li span {
+    font-style: italic;
+}
+.navi {
+    float:right;
+}
+.navi a {
+    color:#11c;
+}
+.navi a:hover {
+    color:#36c;
+}
+

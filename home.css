@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #B4B4B4;
+}
+.post img {
+    border:2px solid #B4B4B4;
+}
+.post .text h2 {
+    margin:0;
+    margin-bottom: 10px;
+    font-size:11pt;
+    color:#666;
+}
+.post .text p {
+    margin:0;
+    margin-bottom: 6px;
+}
+.post .text ul {
+    margin:0;
+    margin-top:10px;
+    margin-bottom: 6px;
+}
+#gwu img {
+    float:left;
+}
+#gwu .text {
+    float:right;
+    text-align: left;
+    width:461px; /* 720-30*2-165-2*2-30 */
+}
+#america img {
+    float:right;
+}
+#america .text {
+    float:left;
+    text-align: right;
+    width:416px; /* 720-30*2-210-2*2-30 */
+}
+#work img {
+    float:left;
+}
+#work .text {
+    float:right;
+    text-align: left;
+    width:526px; /* 720-30*2-100-2*2-30 */
+}
+#marriage img {
+    float:left;
+    margin-right:5px;
+}
+#marriage .text {
+    float:right;
+    text-align: left;
+    width:187px; /* 720-30*2-100-100-225-4*3-20-5*3 */
+}
+#njtu img {
+    float:left;
+    border:none;
+    width:110px;
+    height:110px;
+    margin-bottom: 10px;
+}
+#njtu .text {
+    float:right;
+    text-align: left;
+    width: 520px; /* 720-30*2-110-30 */
+}
+#growing img {
+    float:left;
+    width:400px;
+    height:130px;
+}
+#growing .text {
+    float:right;
+    text-align: left;
+    width: 230px; /* 720-30*2-400-30 */
+}

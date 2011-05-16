@@ -1,41 +1,52 @@
 @charset "utf-8";
 
-#gwu {
-    margin:30px;
+#main h2 {
+    font-size: 12pt;
 }
-#gwu ul li span {
-    font-weight: bold;
+#program {
+    border-bottom:1px solid #B4B4B4;
 }
-#gwu .left {
-    width:380px;
-    float:left;
-}
-#gwu .right {
-    width:240px;
-    float:right;
-}
-#gwu .right img {
-    margin:20px 0 30px 20px;
+#program #logos img {
+    margin-top:20px;
+    margin-bottom: 5px;
     width:218px;
     border:4px solid #000;
 }
-
-#gwu .section {
-    padding-bottom:20px;
-    border-top:1px dashed #000;
-}
-#gwu .section img {
+#program #logos {
     float:right;
-    margin-right: 30px;
-    margin-bottom:20px;
-    width:150px;
+    margin-right:20px;
+    width: 226px; /* 218+4*2 */
 }
-#gwu .section ul li span {
-    font-weight:bold;
+#program #courses {
+    float:left;
+    width: 394px; /* 720-30*2-226-20-20 */
 }
 
-#gwu .more {
+#program #courses ul li span {
+    font-style: italic;
+    font-size: 10pt;
+    color:#444;
+}
+#project {
+    border-bottom: 1px solid #B4B4B4;
+}
+#project img {
+    float: right;
+    border:2px solid #000;
+    width:100px;
+    height:100px;
+}
+#project .text {
+    float:left;
+    width:400px;
+}
+#graduation img {
     float:right;
-    margin-botto:20px;
-    text-transform: uppercase;
+    border:2px solid #000;
+    width:100px;
+    height:100px;
+}
+#graduation .text {
+    float:left;
+    width:400px;
 }
