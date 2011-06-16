@@ -39,3 +39,9 @@
     margin-botto:20px;
     text-transform: uppercase;
 }
+#gwu .more a {
+    color:#11c;
+}
+#gwu .more a:hover {
+    color:#36c;
+}

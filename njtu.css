@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 #njtu {
-	margin:30px;
+    margin:30px;
+}
+#njtu ul li span {
+    font-weight: bold;
 }
 #njtu .left {
     width:380px;
@@ -17,9 +20,9 @@
     border:4px solid #000;
 }
 #njtu .right img.logo1 {
-	margin:20px 0 0 25px;
-	width:95px; 
-	border:0; 
+    margin:20px 0 0 25px;
+    width:95px; 
+    border:0; 
 }
 #njtu .right img.logo2 {
     margin:20px 0 0 0;
@@ -39,10 +42,13 @@
     margin:10px 0;
     border:3px solid #000;
 }
-
 #njtu .more {
     float:right;
     margin-bottom:20px;
-    text-transform: uppercase;
 }
-
+#njtu .more a {
+    color:#11c;
+}
+#njtu .more a:hover {
+    color:#36c;
+}

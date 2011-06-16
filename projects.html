@@ -1,61 +1,187 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <link href="projects.css" rel="stylesheet" type="text/css" />
-        <title>MAOXU LI - Projects</title>
-    </head>
-
-    <body>
-        <div id="header">
-            <h1>MAOXU LI</h1>
-            <h3>Senior Software Developer</h3>
-            <h3>Qualified Development Manager</h3>
-            <p>&quot;The real danger is not that computers will begin to think
-                like men, but that men will begin to think like computers.&quot;</p>
-            <p class="by">~ Sydney J. Harris</p>
-        </div>
-        <div id="main">
-            <div id="top">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="resume.html">RESUME</a></li>
-                    <li class="current_item"><a href="projects.html">PROJECTS</a></li>
-                    <li><a href="http://www.maoxuli.com/articles/">ARTICLES</a></li>
-                    <li><a href="http://www.ppengine.com/">PPEngine</a></li>
-                </ul>
-            </div>
-            <div id="projects">
-                
-            </div>
-        </div>
-        <div id="footer">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="projects.css" rel="stylesheet" type="text/css" />
+<title>LI MAOXU - Projects</title>
+</head>
+<body>
+<div id="header">
+    <h1>LI, MAOXU</h1>
+    <h3>Senior Software Developer</h3>
+    <p>&quot;The real danger is not that computers will begin to think
+        like men, but that men will begin to think like computers.&quot;</p>
+    <p class="by">~ Sydney J. Harris</p>
+    <div class="clear"></div>
+</div>
+<div id="main">
+    <div id="top">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="current_item"><a href="projects.html">PROJECTS</a></li>
+            <li><a href="http://www.limaoxu.net/articles/">ARTICLES</a></li>
+            <li><a href="links.html">LINKS</a></li>
+        </ul>
+    </div>
+    <div id="projects">
+        <div id="featured" class="post">
+            <h2>My featured Projects</h2>
             <ul>
-                <li class="first-item"><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="http://www.maoxuli.com/articles/">Articles</a></li>
-                <li><a href="http://www.ppengine.com/">PPEngine</a></li>
+                <li><a href="#ppengine">PPEngine: Towards a open peer-to-peer network</a> <span>(Jan 2010 - present)</span></li>
+                <li><a href="#firewind">FireWind: Internet video streaming system</a> <span>(Jun 2006 - Apr 2009)</span></li>
+                <li><a href="#dvx">GEV-DVx: Software platform for digital video applications</a> <span>(Jan 2005 - May 2006)</span></li>
+                <li><a href="#goldeneye">GoldenEye: Digital video surveillance system</a> <span>(Nov 2002 - Dec 2004)</span></li>
             </ul>
-            <p>Copyright 2008-2011, Maoxu Li, All rights reserved.</p>
-            <p>This page was last updated on 05/21/2010.</p>
-            <div id="counter"><!-- Start of StatCounter Code --> <script
-                    type="text/javascript">
-                        var sc_project=4861300; 
-                        var sc_invisible=0; 
-                        var sc_partition=57; 
-                        var sc_click_stat=1; 
-                        var sc_security="4fdb6491"; 
-                </script> <script type="text/javascript"
-                src="http://www.statcounter.com/counter/counter.js"></script>
-                <noscript>
-                    <div class="statcounter">
-                        <a title="counter" href="http://www.statcounter.com/" target="_blank"> 
-                            <img class="statcounter"
-                                src="http://c.statcounter.com/4861300/0/4fdb6491/0/" alt="counter" /></a></div>
-                </noscript>
-                <!-- End of StatCounter Code --></div>
         </div>
-    </body>
+        <div id="ppengine" class="post">
+            <h2>PPEngine: Towards a open peer-to-peer network</h2>
+            <p class="meta">Jan 2010 - present, The George Washington University, Washington DC</p>
+            <p>Academia and industry had studied <a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer 
+                (P2P) networks</a> for over 10 years and a large amount of applications were developed and deployed. 
+                However, many factors had hindered the extensive application of P2P networks, in which include the 
+                issues like security and interoperability. Most of current P2P overlay networks are designed and 
+                implemented as parts of applications and solved problems within a single application domain. 
+                Some general P2P frameworks like JXTA were developed but have not obtained extensive confirmation. 
+                Based on the experience of P2P system development, I think some problems may be solved if we have 
+                not discussed P2P overlay network only within certain application domains, but from the viewpoints 
+                of a network architecture and related protocols. I did the original work of this idea when I took 
+                classes of Computer Network and Network Security at The George Washington University in spring 2010 
+                when I was a master student, and extended the work during the following classes.
+            </p>
+            <ul>
+                <li>Design and define a open P2P network architecture to support interoperability.</li>
+                <li>Discuss the universal description of contents in P2P networks.</li>
+                <li>Discuss the interface between peers.</li>
+                <li>Discuss the algorithms for topology of P2P overlay network.</li>
+            </ul>
+            <p><em>Technical summary</em></p>
+            <ul>
+                <li>Linux, Windows</li>
+                <li>C++, STL </li>
+                <li>Winsock, Berkeley sockeet</li>
+            </ul>
+            <p><em>Links</em></p>
+            <ul>
+                <li>Open-source: <a href="https://github.com/ppengine" target="_blank">https://github.com/ppengine</a></li>
+                <li>Homepage: <a href="http://www.limlabs.com/ppengine" target="_blank">http://www.limlabs.com/ppengine</a></li>
+            </ul>
+        </div>
+        <div id="firewind" class="post">
+            <h2>FireWind: Internet video streaming system</h2>
+            <p class="meta">Jun 2006 - Apr 2009, QQ Technology Inc., Beijing China</p>
+            <p>I worked as a Project Director and Software Architect to develop a Internet video 
+                streaming system. 
+            </p>
+            <ul>
+                <li>I designed the software architecture for a commercial online video system.</li>
+                <li>I Managed the development of a peer-to-peer (P2P) video streaming system to 
+                    delivery video contents from server to users.</li>
+                <li>I managed the development of web portal for WebTV (WebVOD) application and the 
+                    media center software running on HTPC (Home Theater PC).</li>
+                <li>I managed the development of web-based operational support system for online 
+                    video and online advertisement.</li>
+            </ul>
+            <table class="summarylist">
+                <tr>
+                    <td>Languages:</td>
+                    <td>80% C++ (STL, MFC, Win32 API), 20% C</td>
+                </tr>
+                <tr>
+                    <td>OS:</td>
+                    <td>Windows 2000/XP/Vista, Linux</td>
+                </tr>
+                <tr>
+                    <td>DB and Tools:</td>
+                    <td>MySQL, Visual Studio</td>
+                </tr>
+                <tr>
+                    <td>Techniques:</td>
+                    <td>Thread, Socket, Client/Server, ActiveX, OOD/OOP</td>
+                </tr>
+            </table>
+        </div>
+        <div id="dvx" class="post">
+            <h2>GEV-DVx: Software platform for real-time digital video applications</h2>
+            <p class="meta">Jan 2005 - May 2006, Golden Vision Technology Co. Ltd., Beijing China</p>
+            <p>I worked as a Project Manger and Software Architect to develop a software platform for the 
+                next generation real-time digital video applications, e.g. GEV&trade; series video security 
+                systems. GEV-DVx defined an architecture (application platform) to simplify the development 
+                of real-time digital video applications based on self-developed or third-party devices and 
+                make them easy to integrate with enterprise information system.
+            </p>
+            <ul>  
+                <li>I designed and defined a four-layer system architecture.</li>
+                <li>I designed and implemented the major interface of management systems and system servers.</li>
+                <li>I restructured the existing DVR/DVS software (GoldenEye&trade;) into a well-defined 
+                    software framework for system servers.</li>
+                
+            </ul>
+            <p><em>Technical summary</em></p>
+            <ul>
+                <li>Windows 2000, Windows XP</li>
+                <li>IIS, SQL Server, ASP</li>
+                <li>C++, STL, MFC, Winsock</li>
+                <li>DirectX (DirectDraw, DirectShow)</li>
+                <li>DivX/Xvid, OpenCV</li>
+            </ul>
+            <p><em>Links</em></p>
+            <ul>
+                <li>Homepage: <a href="http://www.limlabs.com/dvx" target="_blank">http://www.limlabs.com/dvx</a></li>
+            </ul>
+        </div>
+        <div id="goldeneye" class="post">
+            <h2>GoldenEye: Digital video surveillance system</h2>
+            <p class="meta">Nov 2002 - Dec 2004, Golden Eye Technology Co. Ltd., Beijing China</p>
+            <p>I worked as a C++ programmer in a software development team to code functional modules for 
+               PC-based DVR/DVS (Digital Video Recoder/Digital Video Server) systems, which are core parts
+               of GoldenEye&trade; series video surveillance products. Refactoring some functional modules 
+               and wrapping the client application for remote surveillance into an ActiveX control to let 
+               the system working on B/S (Browser/Server) architecture.
+            </p>
+            <ul>
+                <li>Windows NT 4.0, Windows 2000, Windows XP</li>
+                <li>C++, STL, MFC, Winsock</li>
+                <li>DirectX (DirectDraw, DirectShow)</li>
+                <li>DivX/Xvid, OpenCV</li>
+            </ul>
+            <p><em>Links:</em></p>
+            <ul>
+                <li>Homepage: <a href="http://www.limlabs.com/goldeneye" target="_blank">
+                        http://www.limlabs.com/goldeneye</a></li>
+            </ul>
+        </div>
+        <div class="navi"><a href="projects.html">TOP &uarr;</a></div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="footer">
+    <ul>
+        <li class="first-item"><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="http://www.limaoxu.net/articles/">Articles</a></li>
+        <li><a href="links.html">Links</a></li>
+    </ul>
+    <p>Copyright &copy; 2011, <a href="http://www.limaoxu.net">Li Maoxu</a>, All rights reserved.</p>
+    <p>This page was last updated on 06/10/2011.</p>
+    <div id="counter">
+        <!-- Start of StatCounter Code --> 
+        <script type="text/javascript">
+            var sc_project=4861300; 
+            var sc_invisible=0; 
+            var sc_partition=57; 
+            var sc_click_stat=1; 
+            var sc_security="4fdb6491"; 
+        </script> 
+        <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+        <noscript>
+            <div class="statcounter"> 
+                <a title="counter" href="http://www.statcounter.com/" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/4861300/0/4fdb6491/0/" alt="counter" /></a>
+            </div>
+        </noscript>
+        <!-- End of StatCounter Code -->
+    </div>
+</div>
+</body>
 </html>
