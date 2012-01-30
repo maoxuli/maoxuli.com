@@ -55,25 +55,31 @@
     text-align: left;
     width:187px; /* 720-30*2-100-100-225-4*3-20-5*3 */
 }
-#njtu img {
+#pku img {
     float:left;
     border:none;
-    width:110px;
-    height:110px;
+    width:104px;
+    height:104px;
     margin-bottom: 10px;
+}
+#pku .text {
+    float:right;
+    text-align: left;
+    width: 520px; /* 720-30*2-10-4-30 */
+}
+#njtu img {
+    float:left;
 }
 #njtu .text {
     float:right;
     text-align: left;
-    width: 520px; /* 720-30*2-110-30 */
+    width:461px; /* 720-30*2-165-2*2-30 */
 }
-#growing img {
-    float:left;
-    width:400px;
-    height:130px;
-}
-#growing .text {
+#early img {
     float:right;
+}
+#early .text {
+    float:left;
     text-align: left;
-    width: 230px; /* 720-30*2-400-30 */
+    width:461px; /* 720-30*2-165-2*2-30 */
 }

@@ -1,5 +1,45 @@
 @charset "utf-8";
 
+.post {
+    margin-bottom:30px;
+}
 .post h2 {
-    font-size: 12pt;
+    font-size: 11pt;
+    color:#666;
+}
+#about_me img {
+    float:right;
+    border:4px solid #000;
+}
+#about_me .box {
+    float:left;
+    overflow: visible;
+    width:400px; /* 720-30*2-200-4*2-1*2-15*2-20 */
+    height:176px; /* 200+4*2-1*2-15*2 */
+    padding:15px 15px 15px 15px;
+    border:1px dashed #B4B4B4;
+    -moz-border-radius: 5px;     
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+#about_me .box p {
+    margin:0;
+    text-align:justify;
+    line-height: 145%;
+}
+#about_me .box p a {
+    color: #000;
+    font-style: italic;
+}
+#about_me .box p a:hover {
+    text-decoration: underline;
+}
+#about_site table {
+    width: 100%;
+    text-align: center;
+}
+#about_site table tr td {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px dashed #B4B4B4;
 }

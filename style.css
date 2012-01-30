@@ -61,9 +61,9 @@ div.clear {
 /* MASK */
 #mask {
     background:#ccc url(images/bgmask.jpg) repeat;
-    filter: Alpha(Opacity=80, Style=0);
-    -moz-opacity: 0.80;
-    opacity: 0.80;
+    filter: Alpha(Opacity=100, Style=0);
+    -moz-opacity: 1.00;
+    opacity: 1.00;
 }
 
 /* MENU */
