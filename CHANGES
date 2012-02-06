@@ -1,5 +1,10 @@
+v8.2 (02/06/2012)
 * Revise text in home and gwu page
 * Revise text in about and siteamp page
+* Change HISTORY file to CHANGES file
+* Remove default.html
+* Change articles column to viewpoint
+* Folders of viewpoint guestbook portfolio as placeholders
 
 v8.1 (05/20/2011)
 -----------------
