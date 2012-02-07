@@ -74,6 +74,7 @@ div.clear {
 }
 #menu ul {
     margin:0 auto;
+    padding:0;
 }
 #menu ul li {
     margin:0 10px;
