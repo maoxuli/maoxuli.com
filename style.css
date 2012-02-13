@@ -26,51 +26,96 @@ div.clear {
     clear:both;
 }
 
-/* CONTAINER */
 #container {
     width: 720px; 
     margin: 0 auto;
     padding: 0;
 }
 
-/* HEADER */
+/* #header */
 #header {
-    padding: 10px 0 5px 0;
+    margin:0;
+    padding:0;
 }
-#header h1 {
+#header h1 { 
+    margin:0;
+    padding:30px 0 15px 0;
     font-size:18pt;
 }
-#header h3 {
+#header h2 {
     margin:0;
-    margin-bottom: 5px;
+    padding:0 0 5px 0;
     font-size: 12pt;
 }
 #header p{
-    margin-bottom:0;
+    margin:0;
+    padding:10px 0 5px 0;
     line-height: 150%;
     font-size: 11pt;
     font-style:italic;
     text-align:justify;
 }
-#header .by {
-    margin-top:0;
+#header p.meta {
+    padding:0 0 5px 0;
     text-align:right;
-    font-size: 11pt;
 }
 
-/* MASK */
+/* #footer */
+#footer {
+    margin:0;
+    padding: 15px 0 10px 0;
+}
+#footer ul {
+    margin:0;
+    padding:15px 0;
+}
+#footer ul li {
+    display:inline;
+    padding:0 10px;
+    border-right:1px solid #666;
+}
+#footer ul li.first-item {
+    border-left:1px solid #666;
+}
+#footer ul li a {
+    text-decoration: none;
+    color: #11c;
+}
+#footer ul li a:hover {
+    text-decoration: underline;
+    color:#36c;
+}
+#footer p {
+    margin:0;
+    padding:0 0 5px 0;
+}
+#footer p a {
+    text-decoration: none;
+    color:#000;
+}
+#footer p a:hover {
+    text-decoration: underline;
+}
+#footer #counter {
+    margin:0;
+    padding:5px 0;
+}
+
+/* #mask */
 #mask {
+    margin:0;
+    padding:0;
     background:#ccc url(images/bgmask.jpg) repeat;
     filter: Alpha(Opacity=100, Style=0);
     -moz-opacity: 1.00;
     opacity: 1.00;
 }
 
-/* MENU */
+/* #menu */
 #menu {
+    margin:0;
     padding:10px;
     border-bottom:1px solid #B4B4B4;
-    font-size:13pt;
 }
 #menu ul {
     margin:0 auto;
@@ -79,6 +124,7 @@ div.clear {
 #menu ul li {
     margin:0 10px;
     display:inline;
+    font-size:13pt;
 }
 #menu ul li a {
     text-decoration: none;
@@ -92,10 +138,10 @@ div.clear {
     color:#000;
 }
 
-/* MAIN */
+/* #main */
 #main {
     padding:30px;
-    min-height:500px;
+    min-height:400px;
     text-align:left;
 }
 #main p, #main ul {
@@ -110,37 +156,12 @@ div.clear {
 #main a img {
     border:none;
 }
-
-/* FOOTER */
-#footer {
-    padding: 10px 0 20px 0;
+#main h1 {
+    font-size: 13pt;
 }
-#footer a {
-    text-decoration: none;
-    color: #11c;
+#main h2 {
+    font-size: 12pt;
 }
-#footer a:hover {
-    text-decoration: underline;
-    color:#36c;
-}
-#footer a img {
-    border:none;
-}
-#footer ul {
-    margin:20px;
-    padding:0;
-}
-#footer ul li {
-    display:inline;
-    padding:0 10px;
-    border-right:1px solid #666;
-}
-#footer ul li.first-item {
-    border-left:1px solid #666;
-}
-#footer p {
-    margin:0;
-}
-#footer #counter {
-    margin-top:5px;
+#main h3 {
+    font-size: 11pt;
 }
