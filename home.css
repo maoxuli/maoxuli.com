@@ -1,26 +1,24 @@
 @charset "utf-8";
 
-.post {
+.section {
     margin-bottom: 30px;
-    border-bottom: 1px solid #B4B4B4;
+    border-bottom: 1px dotted #B4B4B4;
 }
-.post img {
+.section img {
     border:2px solid #B4B4B4;
 }
-.post .text h2 {
+.section .text h2 {
     margin:0;
     margin-bottom: 10px;
-    font-size:11pt;
-    color:#666;
+    color:#996600;
 }
-.post .text p {
+.section .text p {
     margin:0;
     margin-bottom: 6px;
 }
-.post .text ul {
+.section .text ul {
     margin:0;
-    margin-top:10px;
-    margin-bottom: 6px;
+    font-size: 10.8pt;
 }
 #gwu img {
     float:left;
@@ -40,6 +38,7 @@
 }
 #work img {
     float:left;
+    margin-top: 5px;
 }
 #work .text {
     float:right;
@@ -58,28 +57,31 @@
 #pku img {
     float:left;
     border:none;
-    width:104px;
-    height:104px;
-    margin-bottom: 10px;
 }
 #pku .text {
     float:right;
     text-align: left;
-    width: 520px; /* 720-30*2-10-4-30 */
+    width: 516px; /* 720-30*2-110-2*2-30 */
+}
+#railway img {
+    float:right;
+    border:none;
+    margin-top:5px;
+}
+#railway .text {
+    float:left;
+    text-align: right;
+    width:416px; /* 720-30*2-210-2*2-30 */ 
 }
 #njtu img {
     float:left;
+    width:110px;
+    border:none;
+    margin-bottom: 10px;
+    margin-left:5px;
 }
 #njtu .text {
     float:right;
     text-align: left;
-    width:461px; /* 720-30*2-165-2*2-30 */
-}
-#early img {
-    float:right;
-}
-#early .text {
-    float:left;
-    text-align: left;
-    width:461px; /* 720-30*2-165-2*2-30 */
+    width:516px; /* 720-30*2-110-5-30 */
 }

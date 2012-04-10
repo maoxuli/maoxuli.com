@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="portfolio.css" rel="stylesheet" type="text/css" />
+<title>MAOXU LI - Portfolio - 2</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+    <h1>MAOXU LI</h1>
+    <h2>Senior Software Developer</h2>
+    <p>&quot;The real danger is not that computers will begin to think
+        like men, but that men will begin to think like computers.&quot;</p>
+    <p class="meta">~ Sydney J. Harris</p>
+    <div class="clear"></div>
+</div>
+<div id="mask">
+    <div id="menu">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="resume.html">RÉSUMÉ</a></li>
+            <li class="current_item"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="http://www.maoxuli.com/insights/">INSIGHTS</a></li>
+            <li><a href="http://www.notdreams.com/" target="_blank">FAMILY</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <p class="projects_page_top">[ <a href="portfolio.html">Major Projects</a> | 
+                                       <a href="#">Other Projects</a> ]</p>
+        <div id="dns" class="section">
+            <h2>DNS: Request and parse DNS resource records</h2>
+            <p class="meta">Jan 2011 - Apr 2011, The George Washington University, Washington DC</p>
+            <div class="combo">
+                <div class="pic">
+                    <img src="images/portfolio/dns1.jpg" />
+                    <img src="images/portfolio/dns2.jpg" />
+                </div>
+                <div class="text">
+                    <p>This is the hands-on work for my class at The George Washington University. 
+                       I studied DNS-related protocols and as a practice of programming I designed and 
+                       implemented a set of C++ classes used to request and parse resource records from 
+                       DNS server.</p> 
+                    <p>A request packet is sent to DNS server, then the result is returned in a response packet.
+                       Current implementation only supports sending message with UDP protocol, and only 
+                       parses resource records with types of A, CNAME, and TXT, although other types of 
+                       resource records are also fetched with response packet.Please find source code 
+                       and documents at <a href="https://github.com/maoxuli/dns/">Github</a>.</p>
+                    <p>DNS protocol defines a unified packet format for request and response message. 
+                       Plese find some discussions <a href="#">here</a> about DNS protocols. </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <h3>Technical Summary</h3>
+            <table class="summary">
+                <tr>
+                    <th>Languages:</th>
+                    <td>C++</td>
+                </tr>
+                <tr>
+                    <th>Edit, Compile, and Debug:</th>
+                    <td>Mac OS X, Xcode 4</td>
+                </tr>
+                <tr>
+                    <th>Techniques:</th>
+                    <td>STL, socket, UDP, DNS protocol and message format</td>
+                </tr>
+            </table>
+        </div>
+        <div id="hat" class="section">
+            <h2>Hat: Simple management for personal photos</h2>
+            <p class="meta">Jan 2011 - Apr 2011, The George Washington University, Washington DC</p>
+            <div class="combo">
+                <div class="pic">
+                    <img src="images/portfolio/hat1.png" />
+                    <img src="images/portfolio/hat2.png" />
+                    <img src="images/portfolio/hat3.png" />
+                </div>
+                <div class="text">
+                    <p>This is the hands-on work for my class at The George Washington University. 
+                       The idea is using a central management system to manage our personal photos distributed 
+                       on heterogenous storage. Some kinds of characteristic data of photos, such as file stat, 
+                       meta data, hash, and 
+                       histogram data, are extracted or calculated, and then collected into a central database. 
+                       Functions like complex searching and finding identical or similar photos are realized based 
+                       on database query and analysis of characteristic data. Other advanced functions then may 
+                       be possible, such as managing personal photos on Facebook and Flickr, automatic 
+                       deduplication and duplication of photos for backup, and so on.</p>
+                    <p>The concept is demonstrated with a prototype design of software architecture and three 
+                       simple command line programs. One is used for database update, 
+                       data query, and analysis. One is used for monitoring local file system, detecting changes of 
+                       photo files,
+                       extracting photo's characteristic data, updating records in database. The other is a user 
+                       interface program. The programs are developed on Mac OS X system with standard C++. 
+                       Three programs communicate to each other based on Zeroc Ice, a Internet 
+                       communication middle-ware. Other libraries including OpenCV, ImageMagik, and OTL are used 
+                       to simplify the development. Please find source code and documents at
+                       <a href="https://github.com/maoxuli/hat/">Github</a>.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <h3>Technical Summary</h3>
+            <table class="summary">
+                <tr>
+                    <th>Languages and libraries:</th>
+                    <td>C++, STL, SQL, OTL</td>
+                </tr>
+                <tr>
+                    <th>Operating system and database:</th>
+                    <td>Mac OS X 10.6, SQLite 3</td>
+                </tr>
+                <tr>
+                    <th>Edit, Compile, and Debug:</th>
+                    <td>Xcode 4</td>
+                </tr>
+                <tr>
+                    <th>Network/ORB framework:</th>
+                    <td>Zero Ice 3.3</td>
+                </tr>
+                <tr>
+                    <th>Image processing libraries:</th>
+                    <td>OpenCV, ImageMagik</td>
+                </tr>
+                <tr>
+                    <th>Characteristic data analysis</th>
+                    <td>File stat, Meta data, Hash, Histogram, Euclidean distance</td>
+                </tr>
+            </table>
+        </div>
+        <div id="tie" class="section">
+            <h2>Tie: Share Moods, Share Today!</h2>
+            <p class="meta">Sep 2010 - Dec 2010, The George Washington University, Washington DC</p>
+            <div class="combo">
+                <div class="pic">
+                    <img src="images/portfolio/tie1.png" />
+                    <img src="images/portfolio/tie2.png" />
+                </div>
+                <div class="text">
+                    <p>This is the hands-on work for my class at The George Washington University. The idea 
+                       is exploring a typical architecture of social network applications. 
+                       A GUI application running on mobile devices is used to collect 
+                       users' daily information like current mood, and then transfer it into a central service 
+                       system. The service calculates and 
+                       feeds some statistic information in a long term basis back to users. 
+                       Sharing can be realized on friends-based relationship. Advanced functions like 
+                       diagnosis of personal life, making friends, and automatic greeting are possible.</p>
+                    <p>As a proof of concept, a prototype architecture is designed and a simplified software 
+                       system is demonstrated. Client software is developed on Android system. Service system 
+                       is developed on popular LAMP (Linux, Apache, MySQL, PHP) platform. 
+                       Client and server communicate with REST-style or similar interface. 
+                       Please find source code and documents at 
+                       <a href="https://github.com/maoxuli/tie/">Github</a>.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <h3>Technical Summary</h3>
+            <table class="summary">
+                <tr>
+                    <th>Languages and Marks:</th>
+                    <td>Java, PHP, SQL, XML, HTML/CSS</td>
+                </tr>
+                <tr>
+                    <th>Operating systems or platforms:</th>
+                    <td>Android, LAMP (Linux, Apache, MySQL, PHP)  </td>
+                </tr>
+                <tr>
+                    <th>Database and libraries:</th>
+                    <td>MySQL, OTL</td>
+                </tr>
+                <tr>
+                    <th>Other Techniques:</th>
+                    <td>HTTP, Web Service</td>
+                </tr>
+            </table>
+        </div>
+        <div id="ras" class="section">
+            <h2>RAS: Realtor's Assistant System</h2>
+            <p class="meta">Jan 2010 - Apr 2010, The George Washington University, Washington DC</p>
+            <div class="combo">
+                <div class="pic">
+                    <img src="images/portfolio/ras1.png" />
+                </div>
+                <div class="text">
+                    <p>This is the hands-on work for my class of Software Engineering at The George Washington 
+                       University. This is a team-based project through which we practice and experience a 
+                       complete software cycle. The work emphasized on the software processes: 
+                       choosing appropriate development cycle model and team organization, making plans and 
+                       tracking on the progress, moving forward from requirements phase to analysis, design,  
+                       implementation and testing phase. Please find details at 
+                       <a href="http://code.google.com/p/realtor-assistant/">Google Code</a>.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <h3>Technical Summary</h3>
+            <table class="summary">
+                <tr>
+                    <th>Languages and marks:</th>
+                    <td>PHP, HTML/CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <th>Platform:</th>
+                    <td>LAMP (Linux, Apache, MySQL, PHP)</td>
+                </tr>
+                <tr>
+                    <th>PHP framework:</th>
+                    <td>SpeedPHP (MVC)</td>
+                </tr>
+            </table>
+        </div>
+        <div id="web" class="section">
+            <h2>WordPress themes and personal web</h2>
+            <p class="meta">2008 - 2011</p>
+            <div class="combo">
+                <div class="pic">
+                    <img src="images/portfolio/web.png" />
+                </div>
+                <div class="text">
+                    <p>As a software developer, it is not a challenge to make some static web pages with HTML/CSS 
+                       and JavaScript. I also customized some WordPress themes to match the style of my personal 
+                       web pages. WordPress is a well-designed software with easy-to-use API. 
+                       Only a little bit skills of PHP and HTML/CSS is needed to customize a WordPress theme, even 
+                       make a new one. I had revised some WordPress themes so deeply that they look like absolutely 
+                       new ones. But I am too lazy to parameterize every customized fields in the theme to 
+                       produce a qualified WordPress theme. Who knows, maybe I will do it some time and share a 
+                       theme I made in WordPress community. My personal websties: 
+                       <a href="http://www.maoxuli.com/">http://www.maoxuli.com</a>.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <h3>Technical Summary</h3>
+            <table class="summary">
+                <tr>
+                    <th>Languages:</th>
+                    <td>PHP, HTML/CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <th>Software Framework:</th>
+                    <td>WordPress 2/3</td>
+                </tr>
+                <tr>
+                    <th>Web Browsers:</th>
+                    <td>IE 6/7/8/9, Safari 4/5, Google Chrome, FireFox</td>
+                </tr>
+            </table>
+        </div>
+        <p class="projects_page_bottom">[ <a href="portfolio.html">Major Projects</a> | 
+                                          <a href="#">Other Projects</a> ]</p>
+    </div>
+</div>
+<div id="footer">
+    <ul>
+        <li class="first-item"><a href="about.html">About</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="http://www.maoxuli.com/guestbook/">Guestbook</a></li>
+        <li><a href="http://www.limaoxu.com/">中文</a></li>
+    </ul>
+    <p>Copyright 2008-2012, <a href="http://www.maoxuli.com">Maoxu Li</a>, All rights reserved.</p>
+    <p>This page was last updated on 02/07/2012.</p>
+    <div id="counter">
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=4861300; 
+        var sc_invisible=0; 
+        var sc_security="4fdb6491"; 
+        </script>
+        <script type="text/javascript"
+        src="http://www.statcounter.com/counter/counter.js"></script>
+        <noscript><div class="statcounter"><a title="tumblr page
+        counter" href="http://statcounter.com/tumblr/"
+        target="_blank"><img class="statcounter"
+        src="http://c.statcounter.com/4861300/0/4fdb6491/0/"
+        alt="tumblr page counter"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -8,7 +8,7 @@ body {
     font-family:Georgia, "URW Bookman L", serif;    
     font-size:11pt;
     
-    background:#B4B4B4 url(images/bgpage.jpg) top fixed  no-repeat;
+    background:#B4B4B4 url(images/netmap.jpg) top fixed  no-repeat;
     -moz-background-size: 100% 100%;
            /* Gecko 1.9.2 (Firefox 3.6) */
     -o-background-size: 100% 100%;
@@ -17,7 +17,7 @@ body {
            /* Safari 3.0 */
     background-size: 100% 100%;
            /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
-    -moz-border-image: url(images/bgpage.jpg) 0;
+    -moz-border-image: url(images/netmap.jpg) 0;
            /* Gecko 1.9.1 (Firefox 3.5) */
 }
 
@@ -105,10 +105,12 @@ div.clear {
 #mask {
     margin:0;
     padding:0;
-    background:#ccc url(images/bgmask.jpg) repeat;
-    filter: Alpha(Opacity=100, Style=0);
-    -moz-opacity: 1.00;
-    opacity: 1.00;
+    /*background:#ccc url(images/bgmask.jpg) repeat;*/
+    background-color: #fffafa;
+    filter: Alpha(Opacity=85, Style=0);
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+    border:1px solid #B4B4B4;
 }
 
 /* #menu */

@@ -1,35 +1,60 @@
 @charset "utf-8";
 
-.post {
-    border-top: 1px dotted #B4B4B4;
-    padding-bottom: 10px;
+#main {
+    padding-top: 5px;
 }
-.post h2 {
-    font-size: 12pt;
+p.projects_page_top {
+   text-align: right;
+   margin: 0;
+   padding: 0;
 }
-.post .meta {
+p.projects_page_bottom {
+   text-align: right;
+   margin:0;
+   padding:0;
+   padding-bottom: 20px;
+}
+.section {
+    border-bottom: 1px dotted #B4B4B4;
+    padding-top:10px;
+    padding-bottom: 30px;
+}
+.section h2 {
+    color: #996600;
+}
+.section .meta {
     margin:0;
     padding:0;
     margin-top:-5px;
     font-size:10pt;
     font-style:italic;
+    color:#666;
 }
-.post p {
-    text-align: justify;
+.section h3 {
+    color:#555;
 }
-#featured {
+.combo .pic {
+    float:right;
+    width:194px;
+}
+.combo .pic img {
+    width:190px;
+    margin-top: 20px;
+    border:2px solid #ccc;
+}
+.combo .text {
+    float:left;
+    width:440px;
+}
+.summary {
+    font-size: 10.5pt;
+}
+.summary th {
+    padding-right: 10px;
+    text-align: right;
+    font-weight: normal;
+    color:#996600;
+}
+#ppengine .combo .pic img {
     border:none;
 }
-#featured ul li span {
-    font-style: italic;
-}
-.navi {
-    float:right;
-}
-.navi a {
-    color:#11c;
-}
-.navi a:hover {
-    color:#36c;
-}
-

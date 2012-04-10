@@ -4,8 +4,8 @@
     margin-bottom:30px;
 }
 .post h2 {
-    font-size: 11pt;
-    color:#666;
+    color:#996600;
+    border-bottom:1px dotted #B4B4B4;
 }
 #about_me img {
     float:right;
