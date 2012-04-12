@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#main {
+    padding-bottom: 50px;
+}
+.section {
+    border-bottom: 1px dotted #B4B4B4;
+    padding-bottom: 20px;
+}
+.section h2 {
+    color: #996600;
+}
+.section .meta {
+    margin:0;
+    padding:0;
+    margin-top:-5px;
+    font-size:10pt;
+    font-style:italic;
+    color:#666;
+}
+.section table { 
+    width:100%;
+    margin-top: 15px;
+    font-size: 10.5pt;
+    border-collapse:collapse;
+}
+.section table, .section table tr, .section table tr td {
+    border:1px solid #B4B4B4;
+}
+.section table td {
+    height:22px;
+    padding-left:10px;
+}
+.section table tr.focus {
+    background-color:#eee; 
+}

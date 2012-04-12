@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#header h2 {
+    font-size: 11pt;
+}
+#header p {
+    font-size: 10.5pt;
+}
+.section {
+    border-bottom:1px dotted #B4B4B4;
+}
+.section h2 {
+    color:#996600;
+}
+.section h3 {
+    color:#996600;
+}
+.section .left {
+    float:left;
+    width: 394px; /* 720-30*2-226-20-20 */
+}
+.section .right {
+    float:right;
+    margin-right:5px;
+    margin-top:25px;
+    width: 226px; /* 218+4*2 */
+}
+.section .right img {
+    margin-bottom: 22px;
+    width:218px;
+    border:2px solid #000;
+}
+#program ul li span {
+    font-style: italic;
+    font-size: 10.5pt;
+    color:#444;
+}
+#projects table { 
+    width:100%;
+    margin-bottom: 20px;
+    font-size: 10.5pt;
+    border-collapse:collapse;
+}
+#projects table, #projects table tr, #projects table tr td {
+    border:1px solid #B4B4B4;
+}
+#projects table td {
+    height:22px;
+    padding-left:10px;
+}
+#projects table tr.focus {
+    background-color:#eee; 
+}
+#graduation {
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#graduation img {
+    float:left;
+    margin-top:15px;
+    border:2px solid #000;
+}
+#graduation .text {
+    float:right;
+    width:460px;
+}

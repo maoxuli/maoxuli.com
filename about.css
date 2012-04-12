@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-.post {
+.section {
     margin-bottom:30px;
 }
-.post h2 {
+.section h2 {
     color:#996600;
     border-bottom:1px dotted #B4B4B4;
 }

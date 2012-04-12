@@ -46,6 +46,13 @@ div.clear {
     margin:0;
     padding:0 0 5px 0;
     font-size: 12pt;
+    color:#444;
+}
+#header h3 {
+    margin:0;
+    padding:0 0 5px 0;
+    font-size: 11pt;
+    color:#444;
 }
 #header p{
     margin:0;
@@ -107,9 +114,9 @@ div.clear {
     padding:0;
     /*background:#ccc url(images/bgmask.jpg) repeat;*/
     background-color: #fffafa;
-    filter: Alpha(Opacity=85, Style=0);
-    -moz-opacity: 0.85;
-    opacity: 0.85;
+    filter: Alpha(Opacity=100, Style=0);
+    -moz-opacity: 1.0;
+    opacity: 1.0;
     border:1px solid #B4B4B4;
 }
 

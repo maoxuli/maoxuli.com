@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.section {
+    margin-bottom:30px;
+}
+
 .section h2 {
     color:#996600;
     border-bottom: 1px dotted #B4B4B4;
@@ -30,7 +34,4 @@
     font-style: italic;
     font-size: 10.5pt;
     color:#000080;
-}
-#others {
-    margin-bottom: 30px;
 }
