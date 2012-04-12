@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-#header h2 {
-    font-size: 11pt;
-}
-#header p {
-    font-size: 10.5pt;
-}
 .section {
     border-bottom:1px dotted #B4B4B4;
 }
