@@ -8,16 +8,9 @@
     border:2px solid #B4B4B4;
 }
 .section .text h2 {
-    margin:0;
-    margin-bottom: 10px;
     color:#996600;
 }
-.section .text p {
-    margin:0;
-    margin-bottom: 6px;
-}
 .section .text ul {
-    margin:0;
     font-size: 10.8pt;
 }
 #gwu img {
@@ -71,7 +64,7 @@
 #railway .text {
     float:left;
     text-align: right;
-    width:416px; /* 720-30*2-210-2*2-30 */ 
+    width:425px; /* 720-30*2-210-2*2-30 */ 
 }
 #njtu img {
     float:left;

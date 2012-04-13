@@ -1,8 +1,10 @@
 @charset "utf-8";
 
+#main p {
+    margin-bottom: 10px;
+}
 .topnav {
-    margin-top:0;
-    margin-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 9pt;
 }
 .section {
@@ -11,16 +13,18 @@
 .section h2 {
     color: #996600;
 }
+.section h3 {
+    color:#996600;
+}
 .section .meta {
-    margin:0;
-    padding:0;
-    margin-top:-5px;
     font-size:10pt;
     font-style:italic;
     color:#666;
 }
-.section h3 {
-    color:#555;
+.combo {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom:1px dotted #B4B4B4;
 }
 .combo .pic {
     float:right;
@@ -43,7 +47,4 @@
     text-align: right;
     font-weight: normal;
     color:#996600;
-}
-#ppengine .combo .pic img {
-    border:none;
 }

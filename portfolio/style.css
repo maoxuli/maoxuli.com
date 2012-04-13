@@ -1,17 +1,12 @@
 @charset "utf-8";
 
-#main {
-    padding-bottom: 50px;
-}
 .section {
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .section h2 {
     color: #996600;
 }
 .section .meta {
-    margin:0;
-    padding:0;
     margin-top:-5px;
     font-size:10pt;
     font-style:italic;
@@ -19,9 +14,9 @@
 }
 .section table { 
     width:100%;
-    margin-top: 15px;
     font-size: 10.5pt;
     border-collapse:collapse;
+    table-layout: fixed;
 }
 .section table, .section table tr, .section table tr td {
     border:1px solid #B4B4B4;

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .section {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom:1px dotted #B4B4B4;
 }
 .section h2 {
@@ -11,10 +11,10 @@
     float:right;
     width:208px; /* 200+4*2 */
     margin-right: 20px;
-    margin-top:20px;
+    padding-top:20px;
 }
 #program #logos img {
-    margin-bottom:20px;
+    margin-bottom:30px;
     width:200px;
     border:4px solid #000;
 }
@@ -30,20 +30,13 @@
     float:left;
     width:412px; /* 720-30*2-208-20-20*/
 }
-#program #courses ul {
-    padding-left:25px;
-    margin-bottom: 5px;
-}
-.minor {
+.section .minor {
     font-size: 10.5pt;
     color:#383838;  
 }
-#classmates table {
-    width:100%;
+#classmates, #roommates {
+    padding-bottom:15px;
 }
-#roommates {
-    margin-bottom: 20px;
-}
-#roommates table {
+#classmates table, #roommates table {
     width:100%;
 }

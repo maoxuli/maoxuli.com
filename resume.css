@@ -1,9 +1,8 @@
 @charset "utf-8";
 
 .section {
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
-
 .section h2 {
     color:#996600;
     border-bottom: 1px dotted #B4B4B4;
@@ -11,17 +10,8 @@
 #title h2 {
     border:none;
 }
-
-.section ul {
-    margin-top:5px;
-    margin-bottom: 10px;
-}
-#summary ul {
-    margin-top: -10px;
-}
-
 .section .focus {
-    color:#000080;
+    color:#00008c;
 }
 .section .minor {
     font-size: 10.5pt;
@@ -32,5 +22,5 @@
     margin-bottom: 0;
     font-style: italic;
     font-size: 10.5pt;
-    color:#000080;
+    color:#00008c;
 }

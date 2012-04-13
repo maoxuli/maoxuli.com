@@ -1,13 +1,11 @@
 @charset "utf-8";
 
 .section {
+    margin-bottom: 30px;
     border-bottom: 1px dotted #B4B4B4;
 }
 .section h2 {
     color:#996600;
-}
-#program {
-    margin-bottom: 20px;
 }
 #program #courses {
     float:left;
@@ -17,11 +15,11 @@
     float:right;
     width:184px; /* 180+2*2 */
     margin-right: 5px;
-    margin-top:20px;
+    padding-top:10px;
 }
 #program #logos img {
     width:180px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     border:2px solid #000;
 }
 #program #logos img.logo {
