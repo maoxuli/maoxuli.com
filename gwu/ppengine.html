@@ -33,35 +33,45 @@
                           <a href="#">PPEngine</a> ]</p>
         <div id="ppengine" class="section">
             <h2>PPEngine: Refactoring of a peer-to-peer video streaming system</h2>
-            <p class="meta">May 2010 - Apr 2011, The George Washington University, Washington DC</p>
+            <p class="meta">Jan 2010 - Apr 2011, The George Washington University, Washington DC</p>
             <div class="combo">
                 <div class="pic">
-                    <img src="images/ppengine.png" />
+                    <img src="images/firewind.png" />
+                    <img src="images/vparser.png" />
+                    <img src="images/rtsp_flow.png" />
+                    <img src="images/rtsp_stat.png" />
                 </div>
                 <div class="text">
-                    <p>This is a hands-on project for my coursework at The George Washington University,  
-                       I did refactoring of a peer-to-peer (P2P) video streaming system on code, design, 
-                       and architecture level.</p>
+                    <p>This is a hands-on project for my coursework at The George Washington University. 
+                       I did some refactoring on a peer-to-peer video streaming system. The aim of this 
+                       work is not to work out an application system with full functions, rather to 
+                       practice software refactoring and discuss using design patterns in refactoring.</p>
+                    <p>ActiveX control is a component on Windows system with binary compatible interface. 
+                       Video decoder vendor usually provides a ActiveX control as a wrapper of the functions 
+                       of a video player. In addition, flash is more and more used as a GUI element recently. 
+                       There is also an ActiveX control distributed with adobe flash player to support 
+                       flash playback. Here I demonstrate a media player framework based on multiple ActiveX 
+                       controls. It supports multiple video formats based on the ActiveX 
+                       controls distributed with Windows Media Player and Real Player (as well ass other 
+                       media players). Its entire GUI (all visible elements) is realized with a flash. 
+                       Please find codes and documents at: <br />
+                       <a href="https://github.com/maoxuli/fwplayer/">https://github.com/maoxuli/fwplayer</a></p>
+                    <p>There are many formats of video encoding and packaging. We must parse a video format 
+                       before we can handle the video contents. With object-oriented design and some 
+                       design patterns we can establish a class structure that is easy to extend to support 
+                       parsing a new video format. Please find codes and documents at:<br />
+                       <a href="https://github.com/maoxuli/msplit/">https://github.com/maoxuli/msplit</a></p>
+                    <p>RTP/RTSP protocols are widely used in media streaming applications. RTSP is a HTTP 
+                       extension. It works as a session management protocol in media streaming applications. 
+                       RTP/RTCP protocols are usually used to transfer real-time media contents. Please find 
+                       source code and documents at:<br />
+                       <a href="https://github.com/ppengine/">https://github.com/ppengine</a></p>
+                    <p>This work is continued as a open-source project after I graduated from The George Washington University.
+                       Please find details at:<br />
+                       <a href="http://www.ppengine.com/">http://www.ppengine.com</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
-            <h3>Systems Architecture</h3>
-            <p>PPIO is a software framework to ease the programming of network communications involving 
-               devices behind NAT. A service system (a single server or a distributed network) consists of devices 
-               in public domain (with public IP addresses) is used as a helper to make devices behind NAT reachable. 
-               The procedure to establish peer-to-peer connections is wrapped in PPIO.</p>
-            <p>PPStream is designed as a local helper service that downloads video contents with multiple ways to 
-               ensure playback quality. The video data (RTP packets) is stored in a buffer first and then fed to 
-               the player with RTSP protocol or alternatives. Different from traditional stream media system, in 
-               which all clients connect to the dedicated server and download media contents, 
-               PPStream works in a peer-to-peer fashion. At most cases, PPStream nodes connect to each other directly, 
-               exchange their buffering information, and propagate video contents as needed. Accessing server occurs 
-               only if the data is urgent as to a time window of playback. A PPStream node keeps track on a small 
-               sub-set of all nodes in the system, organizes them into three layers of Members, Neighbors, and 
-               Partners according to the possibility of sharing data with them. Buffering information of a node is 
-               packeted into a message and propagated among nodes with a Gossip-like protocol that is optimized for 
-               media streaming applications. Please find source code and documents at 
-               <a href="https://github.com/ppengine/">Github</a>.</p>
             <h2>Technical Summary</h2>    
             <table class="summary">
                 <tr>
@@ -70,15 +80,15 @@
                 </tr>
                 <tr>
                     <th>Operating systems:</th>
-                    <td>Mac OS X, Linux, Windows</td>
+                    <td>Mac OS X, Windows</td>
                 </tr>
                 <tr>
                     <th>Compiler and debugger:</th>
-                    <td>Xcode4, Eclipse/CDT, Visual Studio 2008</td>
+                    <td>Xcode4, Visual Studio 2008</td>
                 </tr>
                 <tr>
                     <th>Techniques:</th>
-                    <td>TCP/UDP, Socket, Thread Pool, OOD/OOP, XML, NAT traversal</td>
+                    <td>TCP/UDP/RTP, HTTP, RTSP, Socket, Thread, OOD/OOP</td>
                 </tr>
             </table>
         </div>

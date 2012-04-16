@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-bottom: 1px dotted #B4B4B4;
 }
 .section img {
-    border:2px solid #B4B4B4;
+    margin-top:5px;
 }
 .section .text h2 {
     color:#996600;
@@ -19,7 +19,7 @@
 #gwu .text {
     float:right;
     text-align: left;
-    width:461px; /* 720-30*2-165-2*2-30 */
+    width:465px; /* 720-30*2-165-30 */
 }
 #america img {
     float:right;
@@ -27,7 +27,7 @@
 #america .text {
     float:left;
     text-align: right;
-    width:418px; /* 720-30*2-210-2*2-30 */
+    width:420px; /* 720-30*2-210-30 */
 }
 #work img {
     float:left;
@@ -36,16 +36,16 @@
 #work .text {
     float:right;
     text-align: left;
-    width:526px; /* 720-30*2-100-2*2-30 */
+    width:530px; /* 720-30*2-100-30 */
 }
 #marriage img {
     float:left;
-    margin-right:5px;
+    margin-right:10px;
 }
 #marriage .text {
     float:right;
     text-align: left;
-    width:187px; /* 720-30*2-100-100-225-4*3-20-5*3 */
+    width:181px; /* 720-30*2-100-100-225-20-10*3 */
 }
 #pku img {
     float:left;
@@ -54,7 +54,7 @@
 #pku .text {
     float:right;
     text-align: left;
-    width: 516px; /* 720-30*2-110-2*2-30 */
+    width: 520px; /* 720-30*2-110-30 */
 }
 #railway img {
     float:right;
@@ -64,7 +64,7 @@
 #railway .text {
     float:left;
     text-align: right;
-    width:425px; /* 720-30*2-210-2*2-30 */ 
+    width:425px; /* 720-30*2-210-30 */ 
 }
 #njtu img {
     float:left;
@@ -76,5 +76,5 @@
 #njtu .text {
     float:right;
     text-align: left;
-    width:516px; /* 720-30*2-110-5-30 */
+    width:515px; /* 720-30*2-110-5-30 */
 }

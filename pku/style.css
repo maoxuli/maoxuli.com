@@ -7,22 +7,22 @@
 .section h2 {
     color:#996600;
 }
-#program #courses {
+#program .text {
     float:left;
     width:450px; /* 720-30*2-184-5-20*/
 }
-#program #logos {
+#program .pic {
     float:right;
     width:184px; /* 180+2*2 */
     margin-right: 5px;
     padding-top:10px;
 }
-#program #logos img {
+#program .pic img {
     width:180px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border:2px solid #000;
 }
-#program #logos img.logo {
+#program .pic img.logo {
     margin-left:40px;
     width:100px; 
     border:0; 

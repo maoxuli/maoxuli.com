@@ -7,7 +7,8 @@
     color: #996600;
 }
 .section .meta {
-    margin-top:-5px;
+    margin-top:5px;
+    margin-bottom:5px;
     font-size:10pt;
     font-style:italic;
     color:#666;

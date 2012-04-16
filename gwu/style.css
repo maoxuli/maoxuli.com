@@ -2,34 +2,36 @@
 
 .section {
     margin-bottom: 20px;
-    border-bottom:1px dotted #B4B4B4;
 }
 .section h2 {
     color:#996600;
 }
-.section .left {
-    float:left;
-    width: 394px; /* 720-30*2-226-20-20 */
+#program {
+    border-bottom:1px dotted #B4B4B4;
 }
-.section .right {
+#program .pic {
     float:right;
     margin-right:5px;
     margin-top:10px;
     margin-bottom: 10px;
     width: 226px; /* 218+4*2 */
 }
-.section .right img {
+#program .pic img {
     margin-bottom: 10px;
     width:218px;
     border:2px solid #000;
+}
+#program .text {
+    float:left;
+    width: 394px; /* 720-30*2-226-20-20 */
+}
+#program ul {
+    margin:10px 0;
 }
 #program ul li span {
     font-style: italic;
     font-size: 10.5pt;
     color:#444;
-}
-#projects {
-    padding-bottom: 15px;
 }
 #projects .meta {
     margin-top:-5px;
@@ -42,6 +44,7 @@
     font-size: 10.5pt;
     border-collapse:collapse;
     table-layout: fixed;
+    margin:10px 0;
 }
 #projects table, 
 #projects table tr, 
@@ -55,9 +58,12 @@
 #projects table tr.focus {
     background-color:#eee; 
 }
+#graduation {
+    border-bottom:1px dotted #B4B4B4;
+}
 #graduation img {
     float:left;
-    border:2px solid #000;
+    margin-top:5px;
 }
 #graduation .text {
     float:right;

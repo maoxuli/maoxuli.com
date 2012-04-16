@@ -7,26 +7,29 @@
 .section h2 {
     color:#996600;
 }
-#program #logos {
+#program {
+    padding-bottom: 15px;
+}
+#program .pic {
     float:right;
     width:208px; /* 200+4*2 */
     margin-right: 20px;
     padding-top:20px;
 }
-#program #logos img {
-    margin-bottom:30px;
+#program .pic img {
+    margin-bottom:15px;
     width:200px;
     border:4px solid #000;
 }
-#program #logos img.logo1 {
+#program .pic img.logo1 {
     width:95px; 
     border:0; 
 }
-#program #logos img.logo2 {
+#program .pic img.logo2 {
     width:95px; 
     border:0; 
 }
-#program #courses {
+#program .text {
     float:left;
     width:412px; /* 720-30*2-208-20-20*/
 }
