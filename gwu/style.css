@@ -13,11 +13,11 @@
     float:right;
     margin-right:5px;
     margin-top:10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 226px; /* 218+4*2 */
 }
 #program .pic img {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width:218px;
     border:2px solid #000;
 }

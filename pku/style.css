@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-bottom: 1px dotted #B4B4B4;
 }
 .section h2 {
@@ -15,11 +15,12 @@
     float:right;
     width:184px; /* 180+2*2 */
     margin-right: 5px;
+    margin-bottom: 20px;
     padding-top:10px;
 }
 #program .pic img {
     width:180px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border:2px solid #000;
 }
 #program .pic img.logo {

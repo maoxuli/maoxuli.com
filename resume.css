@@ -24,3 +24,6 @@
     font-size: 10.5pt;
     color:#00008c;
 }
+.section ul ul ul {
+    list-style-type: circle;
+}

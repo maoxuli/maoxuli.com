@@ -13,6 +13,18 @@
     font-style:italic;
     color:#666;
 }
+.section .role {
+    margin-top:15px;
+    margin-bottom:5px;
+    padding-left: 10px;
+    font-size:10pt;
+    font-style:italic;
+    color:#666;
+}
+.section ul {
+    margin-top:10px;
+    margin-bottom:15px;
+}
 .section table { 
     width:100%;
     font-size: 10.5pt;
