@@ -24,11 +24,11 @@ a:hover {
     color: red;
     text-decoration: underline;
 }
-p, ul, table {
+p, ul, ol, table {
     margin:5px 0;
     line-height:1.5;
 }
-ul {
+ul, ol {
     padding-left:25px;
 }
 h1, h2, h3, h4 {
@@ -58,7 +58,7 @@ body {
     font-size:11pt;
     text-align:center;
     
-    background:#B4B4B4 url(images/netmap.jpg) top fixed no-repeat;
+    background:#DADADA url(images/netmap.jpg) top fixed no-repeat;
 }
 #container {
     width: 720px; 
@@ -69,6 +69,7 @@ body {
 #header h1 { 
     margin:0;
     padding:0;
+    padding-right:30px;
     padding-top:30px;
     padding-bottom: 15px;
     font-size:18pt;
@@ -76,6 +77,7 @@ body {
 #header h2 {
     margin:0;
     padding:0;
+    padding-right:30px;
     padding-bottom:5px;
     font-size:12pt;
     color:#444;
@@ -83,6 +85,7 @@ body {
 #header h3 {
     margin:0;
     padding:0;
+    padding-right:30px;
     padding-bottom:5px;
     font-size: 11pt;
     color:#444;
@@ -147,28 +150,29 @@ body {
 
 /* #menu */
 #menu { 
-    padding:10px;
+    padding-top:8px;
+    padding-bottom: 5px;
     border-bottom:1px solid #B4B4B4;
+    position:relative;
 }
-#menu ul {
+#menu table {
     margin:0 auto;
     padding:0;
 }
-#menu ul li {
-    margin:0 10px;
-    display:inline;
+#menu table tr td {
+    padding:0 10px;
     font-size:13pt;
 }
-#menu ul li a {
+#menu table tr td a {
     color: #666;
     text-decoration: none;
 }
-#menu ul li a:hover {
+#menu table tr td a:hover {
     color: #000;
     text-decoration: none;
 }
 
-#menu ul li.current_item a {
+#menu table tr td.current_item a {
     color:#000;
 }
 
@@ -177,6 +181,7 @@ body {
     padding:30px;
     min-height:200px;
     text-align:left;
+    position: relative;
 }
 
 
