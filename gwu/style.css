@@ -13,7 +13,7 @@
     float:right;
     margin-right:5px;
     margin-top:10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 226px; /* 218+4*2 */
 }
 #program .pic img {
@@ -51,12 +51,16 @@
 #projects table tr td {
     border:1px solid #B4B4B4;
 }
-#projects table td {
+#projects table tr td {
     height:22px;
     padding-left:10px;
 }
 #projects table tr.focus {
     background-color:#eee; 
+}
+#projects table tr td ul {
+    margin-top:15px;
+    margin-bottom: 15px;
 }
 #graduation {
     border-bottom:1px dotted #B4B4B4;

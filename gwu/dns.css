@@ -8,7 +8,9 @@
     font-size: 9pt;
 }
 .section {
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom:1px dotted #B4B4B4;
+    margin-bottom: 20px;
 }
 .section h2 {
     color: #996600;
@@ -20,11 +22,6 @@
     font-size:10pt;
     font-style:italic;
     color:#666;
-}
-.combo {
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    border-bottom:1px dotted #B4B4B4;
 }
 .combo .pic {
     float:right;
@@ -39,10 +36,13 @@
     float:left;
     width:440px;
 }
-.summary {
+#tech {
+    border: none;
+}
+#tech table  {
     font-size: 10.5pt;
 }
-.summary th {
+#tech th {
     padding-right: 10px;
     text-align: right;
     font-weight: normal;

@@ -34,48 +34,36 @@
         <p class="topnav">[ <a href="index.html">GWU</a> | 
                           <a href="#">PPEngine</a> ]</p>
         <div id="ppengine" class="section">
-            <h2>PPEngine: Refactoring of a peer-to-peer video streaming system</h2>
-            <p class="meta">Jan 2010 - Apr 2011, The George Washington University, Washington DC</p>
+            <h2>A local media streaming service framework</h2>
+            <p class="meta">Jan 2010 - Dec 2010, The George Washington University, Washington DC</p>
             <div class="combo">
                 <div class="pic">
-                    <img src="images/firewind.png" />
-                    <img src="images/vparser.png" />
                     <img src="images/rtsp_flow.png" />
                     <img src="images/rtsp_stat.png" />
                 </div>
                 <div class="text">
-                    <p>This is a hands-on project for my coursework at The George Washington University. 
-                       I did some refactoring on a peer-to-peer video streaming system. The aim of this 
-                       work is not to work out an application system with full functions, rather to 
-                       practice software refactoring and discuss using design patterns in refactoring.</p>
-                    <p>ActiveX control is a component on Windows system with binary compatible interface. 
-                       Video decoder vendor usually provides a ActiveX control as a wrapper of the functions 
-                       of a video player. In addition, flash is more and more used as a GUI element recently. 
-                       There is also an ActiveX control distributed with adobe flash player to support 
-                       flash playback. Here I demonstrate a media player framework based on multiple ActiveX 
-                       controls. It supports multiple video formats based on the ActiveX 
-                       controls distributed with Windows Media Player and Real Player (as well ass other 
-                       media players). Its entire GUI (all visible elements) is realized with a flash. 
-                       Please find codes and documents at: <br />
-                       <a href="https://github.com/maoxuli/fwplayer/">https://github.com/maoxuli/fwplayer</a></p>
-                    <p>There are many formats of video encoding and packaging. We must parse a video format 
-                       before we can handle the video contents. With object-oriented design and some 
-                       design patterns we can establish a class structure that is easy to extend to support 
-                       parsing a new video format. Please find codes and documents at:<br />
-                       <a href="https://github.com/maoxuli/msplit/">https://github.com/maoxuli/msplit</a></p>
-                    <p>RTP/RTSP protocols are widely used in media streaming applications. RTSP is a HTTP 
-                       extension. It works as a session management protocol in media streaming applications. 
-                       RTP/RTCP protocols are usually used to transfer real-time media contents. Please find 
-                       source code and documents at:<br />
+                    <p>This is a hands-on practice for my coursework at The George Washington University. 
+                       RTSP/RTP is a widely used media streaming protocol. In this case, I design a local 
+                       media streaming service framework based on refactoring of a peer-to-peer video 
+                       streaming system. As a part of client-side application, the local media streaming 
+                       service manages media buffering according to user's operations and push media data 
+                       to a media decoder in a streaming fashion with RTSP and RTP protocols. RTSP is s 
+                       HTTP extension. A wrapper class of HTTP is implemented first, which can be work as 
+                       a HTTP server or a HTTP client. Then, a RTSP server is implemeted as a derived class 
+                       of HTTP server. In addition, the implementation of thread, socket, and HTTP wrappers 
+                       are cross platform over Mac OS/X and Windows.</p>
+                    <p>Please find source code and documents at Github:<br />
                        <a href="https://github.com/ppengine/">https://github.com/ppengine</a></p>
-                    <p>This work is continued as a open-source project after I graduated from The George Washington University.
-                       Please find details at:<br />
-                       <a href="http://www.ppengine.com/">http://www.ppengine.com</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
+        </div>
+        <div id="system" class="section">
+            <h2>Architecture</h2>
+        </div>
+        <div id="tech" class="section">
             <h2>Technical Summary</h2>    
-            <table class="summary">
+            <table>
                 <tr>
                     <th>Languages:</th>
                     <td>C++</td>
@@ -86,7 +74,7 @@
                 </tr>
                 <tr>
                     <th>Compiler and debugger:</th>
-                    <td>Xcode4, Visual Studio 2008</td>
+                    <td>Xcode, Visual Studio 2008</td>
                 </tr>
                 <tr>
                     <th>Techniques:</th>

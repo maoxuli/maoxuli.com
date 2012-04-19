@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="http://www.maoxuli.com/style.css" rel="stylesheet" type="text/css" />
-<link href="dns.css" rel="stylesheet" type="text/css" />
-<title>MAOXU LI - GWU - DNS Resolver</title>
+<link href="mplayer.css" rel="stylesheet" type="text/css" />
+<title>MAOXU LI - GWU - MPlayer</title>
 </head>
 <body>
 <div id="container">
@@ -32,65 +32,56 @@
     </div>
     <div id="main">
         <p class="topnav">[ <a href="index.html">GWU</a> | 
-                          <a href="#">DNS Resolver</a> ]</p>
-        <div id="summary" class="section">
-            <h2>DNS Resolver: Programming with DNS protocol</h2>
-            <p class="meta">Jan 2011 - Apr 2011, The George Washington University, Washington DC</p>
+                          <a href="#">MPlayer</a> ]</p>
+        <div id="ppengine" class="section">
+            <h2>A media player based on ActiveX controls</h2>
+            <p class="meta">Sep 2010 - Dec 2010, The George Washington University, Washington DC</p>
             <div class="combo">
                 <div class="pic">
-                    <img src="images/dns1.jpg" />
-                    <img src="images/dns2.jpg" />
-                    <img src="images/dns3.jpg" />
+                    <img src="images/vplayer.png" />
                 </div>
                 <div class="text">
                     <p>This is a hands-on practice for my coursework at The George Washington University. 
-                       I choose DNS resolver as a case study of programming with network protocols. 
-                       DNS is a widely used service on Internet, while its protocol is relative simple. 
-                       Request message and response message are exchanged between client and server or two 
-                       DNS servers. DNS message can be carried by TCP or UDP protocol. The key point of 
-                       programming with DNS protocol is understanding DNS message formats. In this case, 
-                       we will study the formats of three sections in DNS message, those are Header, 
-                       Questions, and Answers. Request message consists of Header section and Questions 
-                       sections. Response message consists of Header section, Question section, and Answers 
-                       section if there is any resource record need to be returned. Response message may 
-                       contain other sections, but we just ignore them in this case study.</p>
-                    <p>Please find complete source code and documents at Github:</p>
-                    <ul>
-                        <li><a href="https://github.com/maoxuli/dns/">https://github.com/maoxuli/dns</a></li>
-                    </ul>
-                    <p>Below is a discussion about this case study:</p>
-                    <ul>
-                        <li><a href="http://www.maoxuli.com/insights/74.html">
-                            Case study: Programming with DNS protocol</a></li>
-                    </ul>
+                       ActiveX control is a component on Windows system with binary compatible interface. 
+                       Manufacturers of video decoder usually provide an ActiveX controls as SDK. Based 
+                       on such ActiveX controls, it is easy to develop a video player that support multiple 
+                       video formats. In addition, flash is more and more used as a GUI element recently. 
+                       Adobe flash player also has an ActiveX control distributed with it to support 
+                       flash playback. In this case study, I demonstrate a media player implementation. 
+                       It supports playback of video contents in ASF/WMV formats with ActiveX control of 
+                       Windows Media Player, and RM/RMVB formats with ActiveX control of Real Player. 
+                       In addition, its entire GUI (all visible elements) is realized with a flash. 
+                       Playing of flash is done with ActiveX control of Flash Player. Strategy and Factory 
+                       design patterns are used in this case to establish a extendable framework for 
+                       supporting of new types of ActiveX controls, hence support playback of new formats 
+                       of media.</p>
+                    <p>Please find source code and documents at Github: <br />
+                       <a href="httpss://github.com/maoxuli/mplayer/">https://github.com/maoxuli/mplayer</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
         <div id="system" class="section">
             <h2>Architecture</h2>
-            <p>The resolver is designed in a object-oriented fashion and implemented with C++. A series 
-               of classes are designed to wrap DNS request and response message. In addition, design 
-               patterns like factory and strategy are used in parsing resource records in response message. 
-               Below is a high-level structure of the classes.</p>
-            <p>To be simple, class Resolver only supports to send and receive DNS messages with UDP socket. 
-               Current implementation only support parsing DNS resource records with types of A, CNAME, and 
-               TXT. Other types of resource records can be retrieved too, but only their headers are parsed.</p>
         </div>
         <div id="tech" class="section">
-            <h2>Technical Summary</h2>
+            <h2>Technical Summary</h2>    
             <table>
                 <tr>
                     <th>Languages:</th>
                     <td>C++</td>
                 </tr>
                 <tr>
-                    <th>Edit, Compile, and Debug:</th>
-                    <td>Xcode, Mac OS X</td>
+                    <th>Operating systems:</th>
+                    <td>Windows</td>
+                </tr>
+                <tr>
+                    <th>Compiler and debugger:</th>
+                    <td>Visual Studio 2008</td>
                 </tr>
                 <tr>
                     <th>Techniques:</th>
-                    <td>STL, socket, TCP/UDP, DNS protocol, Object-Oriented, Design patterns</td>
+                    <td>MFC, Win32 GUI, ActiveX control, OOD/OOP, Design Patterns</td>
                 </tr>
             </table>
         </div>
@@ -104,7 +95,7 @@
         <li><a href="http://www.limaoxu.com/">中文</a></li>
     </ul>
     <p>Copyright 2008-2011, <a href="http://www.maoxuli.com">Maoxu Li</a>, All rights reserved.</p>
-    <p>This page was last updated on 05/21/2010.</p>
+    <p>This page was last updated on 08/05/2011.</p>
     <div id="counter">
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">

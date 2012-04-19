@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="http://www.maoxuli.com/style.css" rel="stylesheet" type="text/css" />
-<link href="dns.css" rel="stylesheet" type="text/css" />
-<title>MAOXU LI - GWU - DNS Resolver</title>
+<link href="mparser.css" rel="stylesheet" type="text/css" />
+<title>MAOXU LI - GWU - MParser</title>
 </head>
 <body>
 <div id="container">
@@ -32,65 +32,47 @@
     </div>
     <div id="main">
         <p class="topnav">[ <a href="index.html">GWU</a> | 
-                          <a href="#">DNS Resolver</a> ]</p>
-        <div id="summary" class="section">
-            <h2>DNS Resolver: Programming with DNS protocol</h2>
+                          <a href="#">MParser</a> ]</p>
+        <div id="ppengine" class="section">
+            <h2>A media file parser framework</h2>
             <p class="meta">Jan 2011 - Apr 2011, The George Washington University, Washington DC</p>
             <div class="combo">
                 <div class="pic">
-                    <img src="images/dns1.jpg" />
-                    <img src="images/dns2.jpg" />
-                    <img src="images/dns3.jpg" />
+                    <img src="images/vparser.png" />
                 </div>
                 <div class="text">
                     <p>This is a hands-on practice for my coursework at The George Washington University. 
-                       I choose DNS resolver as a case study of programming with network protocols. 
-                       DNS is a widely used service on Internet, while its protocol is relative simple. 
-                       Request message and response message are exchanged between client and server or two 
-                       DNS servers. DNS message can be carried by TCP or UDP protocol. The key point of 
-                       programming with DNS protocol is understanding DNS message formats. In this case, 
-                       we will study the formats of three sections in DNS message, those are Header, 
-                       Questions, and Answers. Request message consists of Header section and Questions 
-                       sections. Response message consists of Header section, Question section, and Answers 
-                       section if there is any resource record need to be returned. Response message may 
-                       contain other sections, but we just ignore them in this case study.</p>
-                    <p>Please find complete source code and documents at Github:</p>
-                    <ul>
-                        <li><a href="https://github.com/maoxuli/dns/">https://github.com/maoxuli/dns</a></li>
-                    </ul>
-                    <p>Below is a discussion about this case study:</p>
-                    <ul>
-                        <li><a href="http://www.maoxuli.com/insights/74.html">
-                            Case study: Programming with DNS protocol</a></li>
-                    </ul>
+                       Media file parser is taken as a case study of design patterns and software refactoring. 
+                       ASF/WMV and RM/RMVB formats are analyzed and a software framework of media file parser 
+                       is designed. With design patterns like strategy, factory, and facade, the framework 
+                       is extendable to support parsing of new media formats.</p>
+                    <p>Please find source code and documents at:<br />
+                       <a href="https://github.com/maoxuli/mparser">https://github.com/mparser</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
         <div id="system" class="section">
             <h2>Architecture</h2>
-            <p>The resolver is designed in a object-oriented fashion and implemented with C++. A series 
-               of classes are designed to wrap DNS request and response message. In addition, design 
-               patterns like factory and strategy are used in parsing resource records in response message. 
-               Below is a high-level structure of the classes.</p>
-            <p>To be simple, class Resolver only supports to send and receive DNS messages with UDP socket. 
-               Current implementation only support parsing DNS resource records with types of A, CNAME, and 
-               TXT. Other types of resource records can be retrieved too, but only their headers are parsed.</p>
         </div>
         <div id="tech" class="section">
-            <h2>Technical Summary</h2>
+            <h2>Technical Summary</h2>    
             <table>
                 <tr>
                     <th>Languages:</th>
                     <td>C++</td>
                 </tr>
                 <tr>
-                    <th>Edit, Compile, and Debug:</th>
-                    <td>Xcode, Mac OS X</td>
+                    <th>Operating systems:</th>
+                    <td>Mac OS X</td>
+                </tr>
+                <tr>
+                    <th>Compiler and debugger:</th>
+                    <td>Xcode4</td>
                 </tr>
                 <tr>
                     <th>Techniques:</th>
-                    <td>STL, socket, TCP/UDP, DNS protocol, Object-Oriented, Design patterns</td>
+                    <td>ASF/WMV, RM/RMVB, OOD/OOP, Design Patterns</td>
                 </tr>
             </table>
         </div>
@@ -104,7 +86,7 @@
         <li><a href="http://www.limaoxu.com/">中文</a></li>
     </ul>
     <p>Copyright 2008-2011, <a href="http://www.maoxuli.com">Maoxu Li</a>, All rights reserved.</p>
-    <p>This page was last updated on 05/21/2010.</p>
+    <p>This page was last updated on 08/05/2011.</p>
     <div id="counter">
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
