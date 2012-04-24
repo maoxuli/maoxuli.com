@@ -1,30 +1,17 @@
 @charset "utf-8";
 
-#main {
-    padding-bottom: 50px;
-}
-.topnav {
-    margin-top:0;
-    margin-bottom: 20px;
-    font-size: 9pt;
-}
 .section {
-    border-bottom: 1px dotted #B4B4B4;
     padding-bottom: 20px;
+    border-bottom:1px dotted #B4B4B4;
+    margin-bottom: 20px;
 }
 .section h2 {
     color: #996600;
 }
 .section .meta {
-    margin:0;
-    padding:0;
-    margin-top:-5px;
     font-size:10pt;
     font-style:italic;
     color:#666;
-}
-.section h3 {
-    color:#555;
 }
 .combo .pic {
     float:right;
@@ -32,22 +19,46 @@
 }
 .combo .pic img {
     width:190px;
-    margin-top: 20px;
-    border:2px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border:1px solid #ccc;
 }
 .combo .text {
     float:left;
     width:440px;
 }
-.summary {
-    font-size: 10.5pt;
-}
-.summary th {
-    padding-right: 10px;
-    text-align: right;
-    font-weight: normal;
-    color:#996600;
-}
-#ppengine .combo .pic img {
+#projects {
     border:none;
+}
+.section .role {
+    margin-top:15px;
+    margin-bottom:5px;
+    padding-left: 10px;
+    font-size:10pt;
+    font-style:italic;
+    color:#666;
+}
+.section ul {
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.section ul ul {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.section table { 
+    width:100%;
+    font-size: 10.5pt;
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+.section table, .section table tr, .section table tr td {
+    border:1px solid #B4B4B4;
+}
+.section table td {
+    height:22px;
+    padding-left:10px;
+}
+.section table tr.focus {
+    background-color:#eee; 
 }

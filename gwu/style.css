@@ -62,6 +62,10 @@
     margin-top:15px;
     margin-bottom: 15px;
 }
+#projects table tr td ul ul{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
 #graduation {
     border-bottom:1px dotted #B4B4B4;
 }

@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="http://www.maoxuli.com/style.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="portfolio.css" rel="stylesheet" type="text/css" />
 <title>MAOXU LI - Portfolio</title>
 </head>
 <body>
@@ -20,9 +20,9 @@
     <div id="menu">
         <table>
             <tr>
-                <td><a href="http://www.maoxuli.com/">HOME</a></td>
-                <td><a href="http://www.maoxuli.com/resume.html">RÉSUMÉ</a></td>
-                <td class="current_item"><a href="http://www.maoxuli.com/portfolio/">PORTFOLIO</a></td>
+                <td><a href="home.html">HOME</a></td>
+                <td><a href="resume.html">RÉSUMÉ</a></td>
+                <td class="current_item"><a href="portfolio.html">PORTFOLIO</a></td>
                 <td><a href="http://www.maoxuli.com/insights/">INSIGHTS</a></td>
                 <td><a href="http://www.notdreams.com/" target="_blank">FAMILY</a></td>
             </tr>
@@ -43,7 +43,7 @@
                             <li>Case study: Distributed system architecture and techniques</li>
                             <li>ORB (Object Request Broker) style communication interface (Zero ICE)</li>
                             <li>Embedded database (SQLite, SQL, OTL)</li>
-                            <li>Image processing libraries (OpenCV and ImageMagik)</li>
+                            <li>Image processing libraries (OpenCV, ImageMagik)</li>
                             <li>File system monitor (FSEvents on Mac OS/X)</li>
                             <li>Xcode on Mac OS/X (C++/STL)</li>
                             <li>Source code: <a href="https://github.com/maoxuli/hat/">https://github.com/maoxuli/hat</a></li>
@@ -51,16 +51,25 @@
                     </td>
                 </tr>
                 <tr class="focus">
-                    <td width="150px">01/2011-04/2011</td>
-                    <td><a href="http://www.maoxuli.com/gwu/mparser.html">Case study: A media file parser framework</a></td>
+                    <td width="150px">09/2010-04/2011</td>
+                    <td><a href="http://www.maoxuli.com/gwu/ppengine.html">Redesign/Refactoring: A peer-to-peer video streaming system</a></td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Video file formats and parsing (ASF/WMV, RM/RMVB)</li>
-                            <li>Object-oriented design, design patterns (Strategy, Factory, Facade)</li>
-                            <li>Xcode on Mac OS/X (C++/STL)</li>
-                            <li>Source code: <a href="https://github.com/maoxuli/mparser/">https://github.com/maoxuli/mparser</a></li>
+                            <li>Case study: Software redesign/refactoring</li>
+                            <li>Some fundamental elements of a peer-to-peer video streaming system</li>
+                            <ul>
+                                <li>Media player framework based on ActiveX controls (Multiple media formats), 
+                                    [<a href="https://github.com/maoxuli/mplayer/">source code</a>]</li>
+                                <li>Client-side local media streaming service framework (HTTP, RTSP/RTP),
+                                    [<a href="https://github.com/maoxuli/ppengine/">source code</a>]</li>
+                                <li>Video file formats and parser framework (ASF/WMV, RM/RMVB)
+                                    [<a href="https://github.com/maoxuli/mparser/">source code</a>]</li>
+                            </ul>
+                            <li>Object-oriented design, design patterns (Strategy, Factory...)</li>
+                            <li>Cross-platform programming (C++, Socket, Thread...)</li>
+                            <li>Visual Studio on Windows, Xcode on Mac OS/X</li>
                         </ul>
                     </td>
                 </tr>
@@ -71,42 +80,11 @@
                 <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Case study: Social networking system architecture and techniques</li>
+                            <li>Case study: Social networking application, architecture and techniques</li>
                             <li>Database design and programming interface (ER, SQL, PHP)</li>
-                            <li>Web service interface (HTTP, REST style, Java)</li>
-                            <li>Android system (GUI, Java)</li>
-                            <li>Eclipse (Java, Android SDK/ADT)</li>
+                            <li>Web service interface (HTTP, REST style)</li>
+                            <li>Android SDK (ADT for Eclipse and GUI programming with Java)</li>
                             <li>Source code: <a href="https://github.com/maoxuli/tie/">https://github.com/maoxuli/tie</a></li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr class="focus">
-                    <td width="150px">09/2010-12/2010</td>
-                    <td><a href="http://www.maoxuli.com/gwu/mplayer.html">Case study: A media player based on ActiveX controls</a></td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <ul>
-                            <li>Programming with ActiveX controls (Windows Media Player, Real Player, Adobe Flash Player)</li>
-                            <li>Object-oriented design, design patterns (Strategy, Factory)</li>
-                            <li>Visual Studio on Windows (C++/MFC, Win32 GUI)</li>
-                            <li>Source code: <a href="https://github.com/maoxuli/mplayer/">https://github.com/maoxuli/mplayer</a></li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr class="focus">
-                    <td width="150px">01/2010-12/2010</td>
-                    <td><a href="http://www.maoxuli.com/gwu/ppengine.html">A local media streaming service framework</a></td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <ul>
-                            <li>Case study: Software redesign/refactoring</li>
-                            <li>Programming with HTTP and RTSP (and SDP, RTP)</li>
-                            <li>Cross-platform programming (Socket, Thread)</li>
-                            <li>Object-oriented design, abstraction, inheritance, polymorphism (C++)</li>
-                            <li>Visual Studio on Windows, Xcode on Mac OS/X</li>
-                            <li>Source code: <a href="https://github.com/maoxuli/ppengine/">https://github.com/maoxuli/ppengine</a></li>
                         </ul>
                     </td>
                 </tr>
@@ -119,9 +97,8 @@
                         <ul>
                             <li>Practice of software process and development management (Software Engineering)</li>
                             <li>Unified software process, team organization, plan and track, quality assurance</li>
-                            <li>Case tools (UML, Subversion)</li>
-                            <li>LAMP platform (Linux, Apache, MySQL, and PHP)</li>
-                            <li>MVC framework (SpeedPHP)</li>
+                            <li>CASE tools (ArgoUML, Subversion)</li>
+                            <li>LAMP platform (Linux, Apache, MySQL, and PHP) and MVC framework (SpeedPHP)</li>
                             <li>Source code: <a href="http://code.google.com/p/realtor-assistant/">http://code.google.com/p/realtor-assistant</a></li>
                         </ul>
                     </td>
@@ -133,9 +110,10 @@
                 <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Case study: Programming with DNS protocol, DNS resolver implementation in C++</li>
-                            <li>DNS message formats, DNS resource records parser</li>
+                            <li>Programming with DNS protocol, DNS resolver implementation with C++</li>
+                            <li>DNS message formats, DNS resource records formats and parser</li>
                             <li>Object-oriented design and programming</li>
+                            <li>C++, STL, Socket/UDP non-blocking programming</li>
                             <li>Source code: <a href="https://github.com/maoxuli/dns/">https://github.com/maoxuli/dns</a></li>
                         </ul>
                     </td>
@@ -143,19 +121,17 @@
             </table>
         </div>
         <div id="web" class="section">
-            <h2>Personal web and wordpress theme (2008-2010)</h2>
+            <h2>Web design, programming, and integration(2008-2010)</h2>
             <table>
                 <tr class="focus">
                     <td width="150px">2008-2010</td>
-                    <td><a href="web.html">Personal web and wordpress theme</a></td>
+                    <td><a href="http://www.maoxuli.com/">Personal web integration</a></td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Web page and wordpress theme for my personal website</li>
-                            <li>HTML, CSS, Javascript</li>
-                            <li>PHP</li>
-                            <li>Wordpress API</li>
+                            <li>Web pages, guestbook, and wordpress themes</li>
+                            <li>HTML/CSS, Javascript, PHP, Wordpress API</li>
                             <li><a href="http://www.maoxuli.com/">http://www.maoxuli.com</a></li>
                         </ul>
                     </td>
@@ -175,28 +151,29 @@
                     <td colspan="2">
                         <p class="role">Architect and Project Director</p>
                         <ul>
+                            <li>Management of development (planning and tracking), help and review designs</li>
                             <li>Operations Support System: system monitor and contents management (web-based)</li>
-                            <li>WebTV system (web portal), IPTV system (application on HTPC/Home Theater PC)</li>
-                            <li>Management: make plan, track development, help and review designs</li>
+                            <li>WebTV system (web portal)</li>
+                            <li>IPTV system (application on HTPC/Home Theater PC)</li>
                         </ul>
                     </td>
                 </tr>
                 <tr class="focus">
                     <td>06/2006-12/2007</td>
-                    <td><a href="http://www.maoxuli.com/qqt/firewind.html">
-                        FireWind: Peer-to-Peer video streaming system</a></td>
+                    <td><a href="http://www.maoxuli.com/qqt/fwpps.html">
+                        FireWind/PPStream: Peer-to-Peer video streaming system</a></td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <p class="role">Senior C++ Developer, Architect and Project Director</p>
                         <ul>
+                            <li>Chief designer and developer, team leader (planning and tracking of development)</li>
                             <li>Stored video streaming (VOD), support ASF/WMV and RM/RMVB</li>
                             <li>RTSP/RTP based streams management and media data packet</li>
                             <li>Application level multicast, peer-to-peer media streaming network (with Gossip variant protocol)</li>
                             <li>Using ActiveX control to integrate with desktop and web-based applications</li>
-                            <li>C++, ATL, MFC, socket, TCP/UDP/RTP/RTSP, thread, memory</li>
+                            <li>C++, ATL, MFC, socket, TCP/UDP, RTSP/RTP, HTTP, thread, memory</li>
                             <li>Visual Studio 2005, Windows 2000/XP/Vista, Linux (Partly)</li>
-                            <li>Leader: chief designer and developer, planning and tracking of development</li>
                         </ul>
                     </td>
                 </tr>
@@ -225,7 +202,7 @@
                 </tr>
                 <tr class="focus">
                     <td width="150px">01/2005-05/2006</td>
-                    <td><a href="http://www.maoxuli.com/gev/dvx.html">
+                    <td><a href="http://www.maoxuli.com/gev/gev.html">
                         GEV: A system architecture for safeguarding applications</a></td>
                 </tr>
                 <tr>
@@ -240,7 +217,7 @@
                 </tr>
                 <tr class="focus">
                     <td>11/2002-12/2004</td>
-                    <td><a href="http://www.maoxuli.com/goldeneye.html">
+                    <td><a href="http://www.maoxuli.com/gev/goldeneye.html">
                         GoldenEye: A digital video surveillance system (for safeguarding)</a></td>
                 </tr>
                 <tr>
@@ -264,8 +241,8 @@
 </div>
 <div id="footer">
     <ul>
-        <li class="first-item"><a href="http://www.maoxuli.com/about.html">About</a></li>
-        <li><a href="http://www.maoxuli.com/sitemap.html">Sitemap</a></li>
+        <li class="first-item"><a href="about.html">About</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
         <li><a href="http://www.maoxuli.com/guestbook/">Guestbook</a></li>
         <li><a href="http://www.limaoxu.com/">中文</a></li>
     </ul>

@@ -25,6 +25,10 @@
     margin-top:10px;
     margin-bottom:15px;
 }
+.section ul ul {
+    margin-top:5px;
+    margin-bottom:5px;
+}
 .section table { 
     width:100%;
     font-size: 10.5pt;
