@@ -27,3 +27,7 @@
 .section ul ul ul {
     list-style-type: circle;
 }
+#download {
+    text-align: center;
+    font-size: 10.5pt;
+}
